@@ -7,6 +7,9 @@
           <element id="module-output" name="ProjectOnlineShopping" />
         </element>
         <element id="directory" name="lib">
+          <element id="archive" name="online_shopping-1.0-SNAPSHOT.jar">
+            <element id="module-output" name="ProjectOnlineShopping" />
+          </element>
           <element id="library" level="project" name="Maven: org.springframework:spring-webmvc:4.3.6.RELEASE" />
           <element id="library" level="project" name="Maven: org.springframework:spring-aop:4.3.6.RELEASE" />
           <element id="library" level="project" name="Maven: org.springframework:spring-beans:4.3.6.RELEASE" />
@@ -15,6 +18,7 @@
           <element id="library" level="project" name="Maven: commons-logging:commons-logging:1.2" />
           <element id="library" level="project" name="Maven: org.springframework:spring-expression:4.3.6.RELEASE" />
           <element id="library" level="project" name="Maven: org.springframework:spring-web:4.3.6.RELEASE" />
+          <element id="library" level="project" name="Maven: com.ivo:shopping_backend:1.0-SNAPSHOT" />
           <element id="library" level="project" name="Maven: jstl:jstl:1.2" />
         </element>
       </element>

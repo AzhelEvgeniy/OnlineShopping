@@ -12,9 +12,29 @@
 
     <properties>
         <project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
+
+        <javaee.version>7.0</javaee.version>
+        <spring.version>4.3.6.RELEASE</spring.version>
     </properties>
 
     <dependencies>
+
+        <!-- Spring -->
+        <dependency>
+            <groupId>org.springframework</groupId>
+            <artifactId>spring-webmvc</artifactId>
+            <version>${spring.version}</version>
+        </dependency>
+
+        <!-- Other web -->
+        <dependency>
+            <groupId>javax</groupId>
+            <artifactId>javaee-api</artifactId>
+            <version>${javaee.version}</version>
+            <scope>provided</scope>
+        </dependency>
+
+        <!-- Junit -->
         <dependency>
             <groupId>junit</groupId>
             <artifactId>junit</artifactId>

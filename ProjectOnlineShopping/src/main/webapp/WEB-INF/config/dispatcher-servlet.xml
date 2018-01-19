@@ -11,6 +11,8 @@
 	   http://www.springframework.org/schema/context/spring-context.xsd">
 
     <context:component-scan base-package="com.ivo.onlineshopping.controller"/>
+    <!-- Shopping backend -->
+    <context:component-scan base-package="com.ivo.shoppingbackend.daoimpl"/>
 
     <bean id="viewResolver"
           class="org.springframework.web.servlet.view.InternalResourceViewResolver">
