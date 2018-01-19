@@ -7,8 +7,6 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="98f3d54b-e7f9-44c9-baf6-3186abaf7b2f" name="Default" comment="">
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/com/ivo/onlineshopping/controller/PageController.java" afterPath="$PROJECT_DIR$/src/main/java/com/ivo/onlineshopping/controller/PageController.java" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/webapp/WEB-INF/views/page.jsp" afterPath="$PROJECT_DIR$/src/main/webapp/WEB-INF/views/page.jsp" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
@@ -22,41 +20,11 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file leaf-file-name="page.jsp" pinned="false" current-in-tab="false">
+      <file leaf-file-name="page.jsp" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/main/webapp/WEB-INF/views/page.jsp">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="383">
-              <caret line="30" column="46" lean-forward="false" selection-start-line="30" selection-start-column="46" selection-end-line="30" selection-end-column="46" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="navbar.jsp" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/webapp/WEB-INF/views/shared/navbar.jsp">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="374">
-              <caret line="22" column="31" lean-forward="false" selection-start-line="22" selection-start-column="31" selection-end-line="22" selection-end-column="31" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="navigation.js" pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/src/main/webapp/resources/assets/js/navigation.js">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="153">
-              <caret line="9" column="28" lean-forward="false" selection-start-line="9" selection-start-column="28" selection-end-line="9" selection-end-column="28" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="PageController.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/com/ivo/onlineshopping/controller/PageController.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="389">
-              <caret line="36" column="38" lean-forward="false" selection-start-line="36" selection-start-column="31" selection-end-line="36" selection-end-column="38" />
+            <state relative-caret-position="400">
+              <caret line="37" column="68" lean-forward="false" selection-start-line="37" selection-start-column="68" selection-end-line="37" selection-end-column="68" />
               <folding />
             </state>
           </provider>
@@ -71,6 +39,7 @@
         <option value="spring-beans.schema" />
         <option value="Jsp File" />
         <option value="JavaScript File" />
+        <option value="CSS File" />
       </list>
     </option>
   </component>
@@ -100,9 +69,10 @@
         <option value="$PROJECT_DIR$/src/main/java/com/ivo/onlineshopping/controller/PageController.java" />
         <option value="$PROJECT_DIR$/src/main/webapp/WEB-INF/views/about.jsp" />
         <option value="$PROJECT_DIR$/src/main/webapp/WEB-INF/views/contact.jsp" />
-        <option value="$PROJECT_DIR$/src/main/webapp/WEB-INF/views/page.jsp" />
         <option value="$PROJECT_DIR$/src/main/webapp/WEB-INF/views/shared/navbar.jsp" />
         <option value="$PROJECT_DIR$/src/main/webapp/resources/assets/js/navigation.js" />
+        <option value="$PROJECT_DIR$/src/main/webapp/resources/assets/css/bootstrap-readeble-theme.css" />
+        <option value="$PROJECT_DIR$/src/main/webapp/WEB-INF/views/page.jsp" />
       </list>
     </option>
   </component>
@@ -221,6 +191,16 @@
               <item name="webapp" type="462c0819:PsiDirectoryNode" />
               <item name="resources" type="462c0819:PsiDirectoryNode" />
               <item name="assets" type="462c0819:PsiDirectoryNode" />
+              <item name="css" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="ProjectOnlineShopping" type="b2602c69:ProjectViewProjectNode" />
+              <item name="ProjectOnlineShopping" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="webapp" type="462c0819:PsiDirectoryNode" />
+              <item name="resources" type="462c0819:PsiDirectoryNode" />
+              <item name="assets" type="462c0819:PsiDirectoryNode" />
               <item name="js" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
@@ -317,6 +297,7 @@
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="list.type.of.created.stylesheet" value="CSS" />
   </component>
   <component name="RunDashboard">
     <option name="ruleStates">
@@ -502,12 +483,12 @@
       <workItem from="1516283736709" duration="2072000" />
       <workItem from="1516296054868" duration="3062000" />
       <workItem from="1516352921855" duration="1398000" />
-      <workItem from="1516358305744" duration="449000" />
+      <workItem from="1516358305744" duration="1082000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="9486000" />
+    <option name="totallyTimeSpent" value="10119000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1382" height="754" extended-state="6" />
@@ -533,10 +514,10 @@
       <window_info id="Java Enterprise" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="8" side_tool="false" content_ui="tabs" />
       <window_info id="Capture Analysis" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
-      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.79710144" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.79710144" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Spring" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="8" side_tool="false" content_ui="tabs" />
       <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.8988764" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.41906202" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
       <window_info id="Bean Validation" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
       <window_info id="Web" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Theme Preview" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
@@ -794,10 +775,26 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/webapp/WEB-INF/views/page.jsp">
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/ivo/onlineshopping/controller/PageController.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="383">
-          <caret line="30" column="46" lean-forward="false" selection-start-line="30" selection-start-column="46" selection-end-line="30" selection-end-column="46" />
+        <state relative-caret-position="389">
+          <caret line="36" column="38" lean-forward="false" selection-start-line="36" selection-start-column="31" selection-end-line="36" selection-end-column="38" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/webapp/resources/assets/css/bootstrap-readable-theme.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="125018">
+          <caret line="7354" column="1" lean-forward="false" selection-start-line="7354" selection-start-column="1" selection-end-line="7354" selection-end-column="1" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/webapp/resources/assets/js/navigation.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="153">
+          <caret line="9" column="28" lean-forward="false" selection-start-line="9" selection-start-column="28" selection-end-line="9" selection-end-column="28" />
           <folding />
         </state>
       </provider>
@@ -810,18 +807,10 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/ivo/onlineshopping/controller/PageController.java">
+    <entry file="file://$PROJECT_DIR$/src/main/webapp/WEB-INF/views/page.jsp">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="389">
-          <caret line="36" column="38" lean-forward="false" selection-start-line="36" selection-start-column="31" selection-end-line="36" selection-end-column="38" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/webapp/resources/assets/js/navigation.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="153">
-          <caret line="9" column="28" lean-forward="false" selection-start-line="9" selection-start-column="28" selection-end-line="9" selection-end-column="28" />
+        <state relative-caret-position="400">
+          <caret line="37" column="68" lean-forward="false" selection-start-line="37" selection-start-column="68" selection-end-line="37" selection-end-column="68" />
           <folding />
         </state>
       </provider>
