@@ -7,4 +7,6 @@ import java.util.List;
 public interface CategoryDAO {
 
     List<Category> list();
+
+    Category getCategoryById(int id);
 }

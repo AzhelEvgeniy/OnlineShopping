@@ -34,11 +34,11 @@
     </script>
 
     <!-- Bootstrap Core CSS -->
-    <link href="${css}/bootstrap.min.css" rel="stylesheet">
-    <link href="${css}/bootstrap-readable-theme.css" rel="stylesheet">
+    <link href="${contextPath}/${css}/bootstrap.min.css" rel="stylesheet">
+    <link href="${contextPath}/${css}/bootstrap-readable-theme.css" rel="stylesheet">
 
     <!-- Custom CSS -->
-    <link href="${css}/shop-homepage.css" rel="stylesheet">
+    <link href="${contextPath}/${css}/shop-homepage.css" rel="stylesheet">
 
     <!-- HTML5 Shim and Respond.js IE8 support of HTML5 elements and media queries -->
     <!-- WARNING: Respond.js doesn't work if you view the page via file:// -->
@@ -64,6 +64,11 @@
         <%@include file="about.jsp"  %>
     </c:if>
 
+    <c:if test="${userClickAllProducts == true or
+        userClickProductsByCategory == true}">
+        <%@include file="listProducts.jsp"  %>
+    </c:if>
+
     <c:if test="${userClickContact == true}">
         <%@include file="contact.jsp"  %>
     </c:if>
@@ -73,13 +78,13 @@
 
 
     <!-- jQuery -->
-    <script src="${js}/jquery.js"></script>
+    <script src="${contextPath}/${js}/jquery.js"></script>
 
     <!-- Bootstrap Core JavaScript -->
-    <script src="${js}/bootstrap.min.js"></script>
+    <script src="${contextPath}/${js}/bootstrap.min.js"></script>
 
     <!-- my scripts -->
-    <script src="${js}/navigation.js"></script>
+    <script src="${contextPath}/${js}/navigation.js"></script>
 
 </body>
 

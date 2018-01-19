@@ -25,7 +25,7 @@ public class CategoryDAOImpl implements CategoryDAO {
 
         // second
         category = new Category();
-        category.setId(1);
+        category.setId(2);
         category.setName("Mobile");
         category.setDescription("Mobile description");
         category.setImageUrl("CAT_2.png");
@@ -34,7 +34,7 @@ public class CategoryDAOImpl implements CategoryDAO {
 
         // third
         category = new Category();
-        category.setId(1);
+        category.setId(3);
         category.setName("Laptop");
         category.setDescription("Laptop description");
         category.setImageUrl("CAT_3.png");
@@ -45,6 +45,16 @@ public class CategoryDAOImpl implements CategoryDAO {
     @Override
     public List<Category> list() {
         return categories;
+    }
+
+    @Override
+    public Category getCategoryById(int id) {
+        for (Category c : categories) {
+            if (c.getId() == id) {
+                return c;
+            }
+        }
+        return null;
     }
 
 }
