@@ -12,7 +12,7 @@
 
     <context:component-scan base-package="com.ivo.onlineshopping.controller"/>
     <!-- Shopping backend -->
-    <context:component-scan base-package="com.ivo.shoppingbackend.daoimpl"/>
+    <context:component-scan base-package="com.ivo.shoppingbackend"/>
 
     <bean id="viewResolver"
           class="org.springframework.web.servlet.view.InternalResourceViewResolver">

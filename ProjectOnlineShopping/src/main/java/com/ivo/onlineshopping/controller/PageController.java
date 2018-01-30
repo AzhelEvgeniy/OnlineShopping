@@ -62,7 +62,7 @@ public class PageController {
         ModelAndView mv = new ModelAndView("page");
 
         Category category = null;
-        category = categoryDAO.getCategoryById(categoryId);
+        category = categoryDAO.get(categoryId);
 
         mv.addObject("title", category.getName());
 

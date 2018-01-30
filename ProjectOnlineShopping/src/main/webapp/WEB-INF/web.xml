@@ -4,7 +4,7 @@
 		 http://xmlns.jcp.org/xml/ns/javaee/web-app_3_1.xsd"
          version="3.1">
 
-    <display-name>Archetype Created Web Application</display-name>
+    <display-name>ProjectOnlineShopping</display-name>
 
     <context-param>
         <param-name>contextConfigLocation</param-name>
@@ -19,6 +19,11 @@
         <init-param>
             <param-name>contextConfigLocation</param-name>
             <param-value>/WEB-INF/config/dispatcher-servlet.xml</param-value>
+        </init-param>
+        <!-- For throwing exception -->
+        <init-param>
+            <param-name>throwExceptionIfNoHandlerFound</param-name>
+            <param-value>true</param-value>
         </init-param>
         <load-on-startup>1</load-on-startup>
     </servlet>
