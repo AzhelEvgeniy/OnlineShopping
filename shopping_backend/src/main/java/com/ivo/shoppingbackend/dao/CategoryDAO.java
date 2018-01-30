@@ -6,9 +6,10 @@ import java.util.List;
 
 public interface CategoryDAO {
 
-    boolean add(Category category);
-
     List<Category> list();
 
-    Category getCategoryById(int id);
+    Category get(int id);
+    boolean add(Category category);
+    boolean update(Category category);
+    boolean delete(Category category);
 }

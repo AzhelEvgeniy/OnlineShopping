@@ -3,6 +3,7 @@ package com.ivo.shoppingbackend.daoimpl;
 import com.ivo.shoppingbackend.dao.CategoryDAO;
 import com.ivo.shoppingbackend.dto.Category;
 import org.hibernate.SessionFactory;
+import org.hibernate.query.Query;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Repository;
 import org.springframework.transaction.annotation.Transactional;
@@ -61,18 +62,43 @@ public class CategoryDAOImpl implements CategoryDAO {
     }
 
     @Override
-    public List<Category> list() {
-        return categories;
+    public boolean update(Category category) {
+        try {
+            sessionFactory.getCurrentSession().update(category);
+            return true;
+        } catch (Exception ex) {
+            ex.printStackTrace();
+            return false;
+        }
     }
 
     @Override
-    public Category getCategoryById(int id) {
-        for (Category c : categories) {
-            if (c.getId() == id) {
-                return c;
-            }
+    public boolean delete(Category category) {
+        category.setActive(false);
+
+        try {
+            sessionFactory.getCurrentSession().update(category);
+            return true;
+        } catch (Exception ex) {
+            ex.printStackTrace();
+            return false;
         }
-        return null;
+    }
+
+
+    @Override
+    public List<Category> list() {
+        String selectAvtiveCategory = "FROM Category WHERE active = :active";
+
+        Query query = sessionFactory.getCurrentSession().createQuery(selectAvtiveCategory);
+        query.setParameter("active", true);
+
+        return query.getResultList();
+    }
+
+    @Override
+    public Category get(int id) {
+        return sessionFactory.getCurrentSession().get(Category.class, Integer.valueOf(id));
     }
 
 }
