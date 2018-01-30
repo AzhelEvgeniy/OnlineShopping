@@ -17,10 +17,13 @@
         <spring.version>4.3.6.RELEASE</spring.version>
 
         <!-- h2 database -->
-        <h2db.version>1.4.193</h2db.version>
+        <h2db.version>1.4.196</h2db.version>
 
         <!-- Hibernate -->
         <hibernate.version>5.2.7.Final</hibernate.version>
+
+        <!-- Junit -->
+        <junit.version>4.12</junit.version>
 
     </properties>
 
@@ -72,7 +75,7 @@
         <dependency>
             <groupId>junit</groupId>
             <artifactId>junit</artifactId>
-            <version>3.8.1</version>
+            <version>${junit.version}</version>
             <scope>test</scope>
         </dependency>
     </dependencies>

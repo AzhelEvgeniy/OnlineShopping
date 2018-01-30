@@ -11,6 +11,7 @@ import java.util.ArrayList;
 import java.util.List;
 
 @Repository("categoryDAO")
+@Transactional
 public class CategoryDAOImpl implements CategoryDAO {
 
     @Autowired
@@ -49,7 +50,6 @@ public class CategoryDAOImpl implements CategoryDAO {
     }
 
     @Override
-    @Transactional
     public boolean add(Category category) {
         try {
             sessionFactory.getCurrentSession().persist(category);
