@@ -14,6 +14,11 @@
                 <div class="col-lg-12">
 
                     <c:if test="${userClickAllProducts == true}">
+
+                        <script>
+                            window.categoryId = '';
+                        </script>
+
                         <ol class="breadcrumb">
                             <li><a href="${contextRoot}/home">Home</a></li>
                             <li class="active">All Products</li>
@@ -21,6 +26,11 @@
                     </c:if>
 
                     <c:if test="${userClickProductsByCategory == true}">
+
+                        <script>
+                            window.categoryId = '${category.id}';
+                        </script>
+
                         <ol class="breadcrumb">
                             <li><a href="${contextRoot}/home">Home</a></li>
                             <li class="active">Category</li>
@@ -38,10 +48,25 @@
                     <table id="productListTable" class="table table-striped table-bordered">
                         <thead>
                             <tr>
-                                <th>ID</th>
+                                <th>Image</th>
                                 <th>Name</th>
+                                <th>Brand</th>
+                                <th>Price</th>
+                                <th>Qtu. Available</th>
+                                <th>Actions</th>
                             </tr>
                         </thead>
+
+                        <tfoot>
+                            <tr>
+                                <th>Image</th>
+                                <th>Name</th>
+                                <th>Brand</th>
+                                <th>Price</th>
+                                <th>Qtu. Available</th>
+                                <th>Actions</th>
+                            </tr>
+                        </tfoot>
                     </table>
 
                 </div>

@@ -13,7 +13,7 @@
 <spring:url value="resources/assets/js" var="js"/>
 <spring:url value="resources/assets/images" var="images"/>
 
-<c:set value="${pageContext.request.contextPath}" var="contextPath"/>
+<c:set value="${pageContext.request.contextPath}" var="contextRoot"/>
 
 <!DOCTYPE html>
 <html lang="en">
@@ -28,17 +28,21 @@
 
     <title>Online Shopping - ${title}</title>
 
-    <!-- script for active menu, nabigation.js -->
+    <!-- script for active menu, navigation.js -->
     <script>
         window.menu = '${title}';
+        window.contextRoot = '${contextRoot}';
     </script>
 
     <!-- Bootstrap Core CSS -->
-    <link href="${contextPath}/${css}/bootstrap.min.css" rel="stylesheet">
-    <link href="${contextPath}/${css}/bootstrap-readable-theme.css" rel="stylesheet">
+    <link href="${contextRoot}/${css}/bootstrap.min.css" rel="stylesheet">
+    <link href="${contextRoot}/${css}/bootstrap-readable-theme.css" rel="stylesheet">
+
+    <!-- Bootstrap DataTables CSS -->
+    <link href="${contextRoot}/${css}/dataTables.bootstrap.css" rel="stylesheet">
 
     <!-- Custom CSS -->
-    <link href="${contextPath}/${css}/shop-homepage.css" rel="stylesheet">
+    <link href="${contextRoot}/${css}/shop-homepage.css" rel="stylesheet">
 
     <!-- HTML5 Shim and Respond.js IE8 support of HTML5 elements and media queries -->
     <!-- WARNING: Respond.js doesn't work if you view the page via file:// -->
@@ -78,17 +82,19 @@
 
 
     <!-- jQuery -->
-    <script src="${contextPath}/${js}/jquery.js"></script>
+    <script src="${contextRoot}/${js}/jquery.js"></script>
 
     <!-- Bootstrap Core JavaScript -->
-    <script src="${contextPath}/${js}/bootstrap.min.js"></script>
+    <script src="${contextRoot}/${js}/bootstrap.min.js"></script>
 
     <!-- DataTables Plugin -->
-    <script src="${contextPath}/${js}/jquery.dataTables.js"></script>
+    <script src="${contextRoot}/${js}/jquery.dataTables.js"></script>
+    <!-- DataTables bootstrap script -->
+    <script src="${contextRoot}/${js}/dataTables.bootstrap.js"></script>
 
     <!-- my scripts -->
-    <script src="${contextPath}/${js}/navigation.js"></script>
-    <script src="${contextPath}/${js}/datatableProducts.js"></script>
+    <script src="${contextRoot}/${js}/navigation.js"></script>
+    <script src="${contextRoot}/${js}/datatableProducts.js"></script>
 </body>
 
 </html>
