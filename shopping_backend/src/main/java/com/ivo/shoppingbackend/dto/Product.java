@@ -1,5 +1,7 @@
 package com.ivo.shoppingbackend.dto;
 
+import com.fasterxml.jackson.annotation.JsonIgnore;
+
 import javax.persistence.*;
 import javax.validation.constraints.Min;
 import java.util.UUID;
@@ -12,25 +14,29 @@ public class Product {
     @GeneratedValue(strategy = GenerationType.IDENTITY)
     private int id;
     private String code;
-
-
     private String name;
-
     private String brand;
 
+    @JsonIgnore
     private String description;
+
     @Column(name = "unit_price")
     @Min(value=1, message="The price cannot be less than 1!")
     private double unitPrice;
     private int quantity;
+
     @Column(name = "is_active")
+    @JsonIgnore
     private boolean active;
+
     @Column(name = "category_id")
-
+    @JsonIgnore
     private int categoryId;
-    @Column(name = "supplier_id")
 
+    @Column(name = "supplier_id")
+    @JsonIgnore
     private int supplierId;
+
     private int purchases;
     private int views;
 
