@@ -83,9 +83,12 @@
     <!-- Bootstrap Core JavaScript -->
     <script src="${contextPath}/${js}/bootstrap.min.js"></script>
 
+    <!-- DataTables Plugin -->
+    <script src="${contextPath}/${js}/jquery.dataTables.js"></script>
+
     <!-- my scripts -->
     <script src="${contextPath}/${js}/navigation.js"></script>
-
+    <script src="${contextPath}/${js}/datatableProducts.js"></script>
 </body>
 
 </html>
