@@ -1,5 +1,6 @@
 package com.ivo.onlineshopping.controller;
 
+import com.ivo.onlineshopping.exception.ProductNotFoundException;
 import com.ivo.shoppingbackend.dao.CategoryDAO;
 import com.ivo.shoppingbackend.dao.ProductDAO;
 import com.ivo.shoppingbackend.dto.Category;
@@ -93,10 +94,12 @@ public class PageController {
     * */
 
     @RequestMapping(value = "/show/{id}/product")
-    public ModelAndView showSingleProduct(@PathVariable int id) {
+    public ModelAndView showSingleProduct(@PathVariable int id) throws ProductNotFoundException {
         ModelAndView mv = new ModelAndView("page");
 
         Product product = productDAO.get(id);
+
+        if (product == null) throw new ProductNotFoundException();
 
         // update the view count
         int countView = product.getViews();
