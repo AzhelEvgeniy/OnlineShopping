@@ -1,6 +1,7 @@
 package com.ivo.onlineshopping.controller;
 
 import com.ivo.onlineshopping.util.FileUploadUtil;
+import com.ivo.onlineshopping.validator.ProductValidator;
 import com.ivo.shoppingbackend.dao.CategoryDAO;
 import com.ivo.shoppingbackend.dao.ProductDAO;
 import com.ivo.shoppingbackend.dto.Category;
@@ -64,6 +65,9 @@ public class ManageController {
                                           Model model,
                                           HttpServletRequest request)
     {
+        // validate data
+        new ProductValidator().validate(mProduct, results);
+
         // check if there are any errors
         if (results.hasErrors()) {
             model.addAttribute("userClickManageProducts", true);
