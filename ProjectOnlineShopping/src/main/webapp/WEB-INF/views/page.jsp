@@ -100,6 +100,9 @@
     <!-- DataTables bootstrap script -->
     <script src="${contextRoot}/${js}/dataTables.bootstrap.js"></script>
 
+    <!-- BootBox -->
+    <script src="${contextRoot}/${js}/bootbox.min.js"></script>
+
     <!-- my scripts -->
     <script src="${contextRoot}/${js}/navigation.js"></script>
     <script src="${contextRoot}/${js}/datatableProducts.js"></script>
