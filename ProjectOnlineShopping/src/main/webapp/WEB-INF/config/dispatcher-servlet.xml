@@ -20,6 +20,9 @@
         <property name="suffix" value=".jsp"/>
     </bean>
 
+    <!-- id must be multipartResolver, itis necessary for spring -->
+    <bean id="multipartResolver"
+          class="org.springframework.web.multipart.support.StandardServletMultipartResolver"/>
 
     <!-- Loading static resources -->
     <mvc:annotation-driven/>

@@ -1,5 +1,6 @@
 package com.ivo.onlineshopping.controller;
 
+import com.ivo.onlineshopping.util.FileUploadUtil;
 import com.ivo.shoppingbackend.dao.CategoryDAO;
 import com.ivo.shoppingbackend.dao.ProductDAO;
 import com.ivo.shoppingbackend.dto.Category;
@@ -17,6 +18,7 @@ import org.springframework.web.bind.annotation.RequestMethod;
 import org.springframework.web.bind.annotation.RequestParam;
 import org.springframework.web.servlet.ModelAndView;
 
+import javax.servlet.http.HttpServletRequest;
 import javax.validation.Valid;
 import java.util.List;
 
@@ -59,7 +61,8 @@ public class ManageController {
     @RequestMapping(value = "/products", method = RequestMethod.POST)
     public String handleProductSubmission(@Valid @ModelAttribute("product") Product mProduct,
                                           BindingResult results,
-                                          Model model)
+                                          Model model,
+                                          HttpServletRequest request)
     {
         // check if there are any errors
         if (results.hasErrors()) {
@@ -73,6 +76,10 @@ public class ManageController {
 
         // new product
         productDAO.add(mProduct);
+
+        if (!mProduct.getFile().getOriginalFilename().equals("")) {
+            FileUploadUtil.uploadFile(request, mProduct.getFile(), mProduct.getCode());
+        }
 
         return "redirect:/manage/products?operation=product";
     }
