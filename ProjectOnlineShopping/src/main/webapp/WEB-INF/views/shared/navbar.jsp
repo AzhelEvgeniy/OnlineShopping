@@ -17,11 +17,14 @@
                 <li id="about">
                     <a href="${contextRoot}/about">About</a>
                 </li>
+                <li id="contact">
+                    <a href="${contextRoot}/contact">Contact</a>
+                </li>
                 <li id="listProducts">
                     <a href="${contextRoot}/show/all/products">View products</a>
                 </li>
-                <li id="contact">
-                    <a href="${contextRoot}/contact">Contact</a>
+                <li id="manageProducts">
+                    <a href="${contextRoot}/manage/products">Manage products</a>
                 </li>
             </ul>
         </div>
