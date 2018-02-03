@@ -142,7 +142,7 @@ $(function () {
                     }
                 },
                 {
-                    data: 'active',
+                    data: 'active',     // switch field
                     bSortable: false,
                     mRender: function (data, type, row) {
                         var str = '';

@@ -55,6 +55,22 @@ public class ManageController {
         return mv;
     }
 
+    @RequestMapping(value = "/{id}/product", method = RequestMethod.GET)
+    public ModelAndView showEditProduct(@PathVariable int id) {
+        ModelAndView mv = new ModelAndView("page");
+
+        mv.addObject("userClickManageProducts", true);
+        mv.addObject("title", "Manage Products");
+
+        Product product = productDAO.get(id);
+
+        // set the product fetch from database
+        // it is for edit
+        mv.addObject("product", product);
+
+        return mv;
+    }
+
     // handling product submission
     @RequestMapping(value = "/products", method = RequestMethod.POST)
     public String handleProductSubmission(@Valid @ModelAttribute("product") Product mProduct,
@@ -62,8 +78,17 @@ public class ManageController {
                                           Model model,
                                           HttpServletRequest request)
     {
-        // validate data
-        new ProductValidator().validate(mProduct, results);
+        // validate data and image
+        if (mProduct.getId() == 0) {
+            // create new product with image
+            new ProductValidator().validate(mProduct, results);
+        } else {
+            // update the product
+            if (!mProduct.getFile().getOriginalFilename().equals("")) {
+                new ProductValidator().validate(mProduct, results);
+            }
+        }
+
 
         // check if there are any errors
         if (results.hasErrors()) {
@@ -75,8 +100,15 @@ public class ManageController {
 
         logger.info(mProduct.toString());
 
-        // new product
-        productDAO.add(mProduct);
+
+        if (mProduct.getId() == 0) {
+            // create new product if id is 0
+            productDAO.add(mProduct);
+        } else {
+            // update the product if id is not 0
+            productDAO.update(mProduct);
+        }
+
 
         if (!mProduct.getFile().getOriginalFilename().equals("")) {
             FileUploadUtil.uploadFile(request, mProduct.getFile(), mProduct.getCode());

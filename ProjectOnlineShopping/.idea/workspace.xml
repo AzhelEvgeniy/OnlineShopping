@@ -8,13 +8,8 @@
   <component name="ChangeListManager">
     <list default="true" id="98f3d54b-e7f9-44c9-baf6-3186abaf7b2f" name="Default" comment="">
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/com/ivo/onlineshopping/controller/JsonDataController.java" afterPath="$PROJECT_DIR$/src/main/java/com/ivo/onlineshopping/controller/JsonDataController.java" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/com/ivo/onlineshopping/controller/ManageController.java" afterPath="$PROJECT_DIR$/src/main/java/com/ivo/onlineshopping/controller/ManageController.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/webapp/WEB-INF/views/manageProducts.jsp" afterPath="$PROJECT_DIR$/src/main/webapp/WEB-INF/views/manageProducts.jsp" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/webapp/WEB-INF/views/page.jsp" afterPath="$PROJECT_DIR$/src/main/webapp/WEB-INF/views/page.jsp" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/webapp/resources/assets/css/shop-homepage.css" afterPath="$PROJECT_DIR$/src/main/webapp/resources/assets/css/shop-homepage.css" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/webapp/resources/assets/js/datatableProducts.js" afterPath="$PROJECT_DIR$/src/main/webapp/resources/assets/js/datatableProducts.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../shopping_backend/.idea/workspace.xml" afterPath="$PROJECT_DIR$/../shopping_backend/.idea/workspace.xml" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <ignored path="$PROJECT_DIR$/target/" />
@@ -30,32 +25,32 @@
       <file leaf-file-name="manageProducts.jsp" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/main/webapp/WEB-INF/views/manageProducts.jsp">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="204">
-              <caret line="145" column="32" lean-forward="false" selection-start-line="145" selection-start-column="32" selection-end-line="145" selection-end-column="32" />
+            <state relative-caret-position="663">
+              <caret line="114" column="33" lean-forward="false" selection-start-line="114" selection-start-column="33" selection-end-line="114" selection-end-column="33" />
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="datatableProducts.js" pinned="false" current-in-tab="true">
+      <file leaf-file-name="datatableProducts.js" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/main/webapp/resources/assets/js/datatableProducts.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="323">
-              <caret line="194" column="87" lean-forward="true" selection-start-line="194" selection-start-column="87" selection-end-line="194" selection-end-column="87" />
+            <state relative-caret-position="51">
+              <caret line="141" column="21" lean-forward="false" selection-start-line="141" selection-start-column="21" selection-end-line="141" selection-end-column="21" />
               <folding>
-                <marker date="1517583067491" expanded="true" signature="1618:1627" ph="..." />
-                <marker date="1517583067491" expanded="true" signature="2153:2159" ph="&amp;##160;" />
-                <marker date="1517583067491" expanded="true" signature="4554:4563" ph="..." />
+                <marker date="1517644792981" expanded="true" signature="1618:1627" ph="..." />
+                <marker date="1517644792981" expanded="true" signature="2153:2159" ph="&amp;##160;" />
+                <marker date="1517644792981" expanded="true" signature="4554:4563" ph="..." />
               </folding>
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="ManageController.java" pinned="false" current-in-tab="false">
+      <file leaf-file-name="ManageController.java" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/main/java/com/ivo/onlineshopping/controller/ManageController.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="255">
-              <caret line="87" column="53" lean-forward="false" selection-start-line="87" selection-start-column="43" selection-end-line="87" selection-end-column="53" />
+            <state relative-caret-position="349">
+              <caret line="85" column="33" lean-forward="false" selection-start-line="85" selection-start-column="33" selection-end-line="85" selection-end-column="33" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -128,8 +123,8 @@
         <option value="$PROJECT_DIR$/src/main/webapp/WEB-INF/views/manageProducts.jsp" />
         <option value="$PROJECT_DIR$/src/main/java/com/ivo/onlineshopping/controller/JsonDataController.java" />
         <option value="$PROJECT_DIR$/src/main/webapp/resources/assets/css/shop-homepage.css" />
-        <option value="$PROJECT_DIR$/src/main/java/com/ivo/onlineshopping/controller/ManageController.java" />
         <option value="$PROJECT_DIR$/src/main/webapp/resources/assets/js/datatableProducts.js" />
+        <option value="$PROJECT_DIR$/src/main/java/com/ivo/onlineshopping/controller/ManageController.java" />
       </list>
     </option>
   </component>
@@ -167,7 +162,7 @@
       <select />
     </treeState>
   </component>
-  <component name="ProjectFrameBounds" extendedState="6">
+  <component name="ProjectFrameBounds">
     <option name="x" value="683" />
     <option name="width" value="683" />
     <option name="height" value="738" />
@@ -524,15 +519,16 @@
       <workItem from="1517572887063" duration="414000" />
       <workItem from="1517576469589" duration="2195000" />
       <workItem from="1517578713018" duration="1396000" />
-      <workItem from="1517581666000" duration="1479000" />
+      <workItem from="1517581666000" duration="1580000" />
+      <workItem from="1517644686624" duration="986000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="49749000" />
+    <option name="totallyTimeSpent" value="50836000" />
   </component>
   <component name="ToolWindowManager">
-    <frame x="-8" y="-8" width="1382" height="754" extended-state="6" />
+    <frame x="683" y="0" width="683" height="738" extended-state="0" />
     <editor active="true" />
     <layout>
       <window_info id="Palette" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
@@ -554,7 +550,7 @@
       <window_info id="Image Layers" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
       <window_info id="Java Enterprise" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="11" side_tool="false" content_ui="tabs" />
       <window_info id="Capture Analysis" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
-      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.72624797" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.72396696" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="9" side_tool="false" content_ui="tabs" />
       <window_info id="Spring" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="12" side_tool="false" content_ui="tabs" />
       <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="10" side_tool="false" content_ui="tabs" />
@@ -899,32 +895,32 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/webapp/resources/assets/js/datatableProducts.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="51">
+          <caret line="141" column="21" lean-forward="false" selection-start-line="141" selection-start-column="21" selection-end-line="141" selection-end-column="21" />
+          <folding>
+            <marker date="1517644792981" expanded="true" signature="1618:1627" ph="..." />
+            <marker date="1517644792981" expanded="true" signature="2153:2159" ph="&amp;##160;" />
+            <marker date="1517644792981" expanded="true" signature="4554:4563" ph="..." />
+          </folding>
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/src/main/webapp/WEB-INF/views/manageProducts.jsp">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="204">
-          <caret line="145" column="32" lean-forward="false" selection-start-line="145" selection-start-column="32" selection-end-line="145" selection-end-column="32" />
+        <state relative-caret-position="663">
+          <caret line="114" column="33" lean-forward="false" selection-start-line="114" selection-start-column="33" selection-end-line="114" selection-end-column="33" />
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/com/ivo/onlineshopping/controller/ManageController.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="255">
-          <caret line="87" column="53" lean-forward="false" selection-start-line="87" selection-start-column="43" selection-end-line="87" selection-end-column="53" />
+        <state relative-caret-position="349">
+          <caret line="85" column="33" lean-forward="false" selection-start-line="85" selection-start-column="33" selection-end-line="85" selection-end-column="33" />
           <folding>
             <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/webapp/resources/assets/js/datatableProducts.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="323">
-          <caret line="194" column="87" lean-forward="true" selection-start-line="194" selection-start-column="87" selection-end-line="194" selection-end-column="87" />
-          <folding>
-            <marker date="1517583067491" expanded="true" signature="1618:1627" ph="..." />
-            <marker date="1517583067491" expanded="true" signature="2153:2159" ph="&amp;##160;" />
-            <marker date="1517583067491" expanded="true" signature="4554:4563" ph="..." />
           </folding>
         </state>
       </provider>
