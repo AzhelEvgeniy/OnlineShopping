@@ -7,8 +7,9 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="98f3d54b-e7f9-44c9-baf6-3186abaf7b2f" name="Default" comment="">
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/com/ivo/onlineshopping/controller/ManageController.java" afterPath="$PROJECT_DIR$/src/main/java/com/ivo/onlineshopping/controller/ManageController.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/webapp/WEB-INF/views/manageProducts.jsp" afterPath="$PROJECT_DIR$/src/main/webapp/WEB-INF/views/manageProducts.jsp" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/webapp/WEB-INF/views/page.jsp" afterPath="$PROJECT_DIR$/src/main/webapp/WEB-INF/views/page.jsp" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/webapp/resources/assets/js/datatableProducts.js" afterPath="$PROJECT_DIR$/src/main/webapp/resources/assets/js/datatableProducts.js" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <ignored path="$PROJECT_DIR$/target/" />
@@ -24,8 +25,8 @@
       <file leaf-file-name="manageProducts.jsp" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/main/webapp/WEB-INF/views/manageProducts.jsp">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="298">
-              <caret line="200" column="32" lean-forward="false" selection-start-line="200" selection-start-column="32" selection-end-line="200" selection-end-column="32" />
+            <state relative-caret-position="204">
+              <caret line="186" column="45" lean-forward="false" selection-start-line="186" selection-start-column="33" selection-end-line="186" selection-end-column="45" />
               <folding>
                 <element signature="n#div#0;n#div#0;n#!!top" expanded="false" />
                 <element signature="n#div#1;n#div#0;n#!!top" expanded="false" />
@@ -35,7 +36,31 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="ManageController.java" pinned="false" current-in-tab="true">
+      <file leaf-file-name="datatableProducts.js" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/src/main/webapp/resources/assets/js/datatableProducts.js">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="893">
+              <caret line="259" column="11" lean-forward="false" selection-start-line="259" selection-start-column="11" selection-end-line="259" selection-end-column="11" />
+              <folding>
+                <marker date="1517648100521" expanded="true" signature="1618:1627" ph="..." />
+                <marker date="1517648100521" expanded="true" signature="2153:2159" ph="&amp;##160;" />
+                <marker date="1517648100521" expanded="true" signature="4554:4563" ph="..." />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="page.jsp" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/webapp/WEB-INF/views/page.jsp">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="251">
+              <caret line="97" column="23" lean-forward="false" selection-start-line="97" selection-start-column="23" selection-end-line="97" selection-end-column="23" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="ManageController.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/main/java/com/ivo/onlineshopping/controller/ManageController.java">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="350">
@@ -110,12 +135,12 @@
         <option value="$PROJECT_DIR$/src/main/java/com/ivo/onlineshopping/util/FileUploadUtil.java" />
         <option value="$PROJECT_DIR$/src/main/java/com/ivo/onlineshopping/validator/ProductValidator.java" />
         <option value="$PROJECT_DIR$/src/main/webapp/resources/assets/js/bootbox.min.js" />
-        <option value="$PROJECT_DIR$/src/main/webapp/WEB-INF/views/page.jsp" />
         <option value="$PROJECT_DIR$/src/main/java/com/ivo/onlineshopping/controller/JsonDataController.java" />
         <option value="$PROJECT_DIR$/src/main/webapp/resources/assets/css/shop-homepage.css" />
-        <option value="$PROJECT_DIR$/src/main/webapp/resources/assets/js/datatableProducts.js" />
         <option value="$PROJECT_DIR$/src/main/webapp/WEB-INF/views/manageProducts.jsp" />
         <option value="$PROJECT_DIR$/src/main/java/com/ivo/onlineshopping/controller/ManageController.java" />
+        <option value="$PROJECT_DIR$/src/main/webapp/WEB-INF/views/page.jsp" />
+        <option value="$PROJECT_DIR$/src/main/webapp/resources/assets/js/datatableProducts.js" />
       </list>
     </option>
   </component>
@@ -174,10 +199,10 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
+      <pane id="Scope" />
       <pane id="PackagesPane" />
       <pane id="AndroidView" />
       <pane id="Scratches" />
-      <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -243,7 +268,7 @@
               <item name="webapp" type="462c0819:PsiDirectoryNode" />
               <item name="resources" type="462c0819:PsiDirectoryNode" />
               <item name="assets" type="462c0819:PsiDirectoryNode" />
-              <item name="css" type="462c0819:PsiDirectoryNode" />
+              <item name="js" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="ProjectOnlineShopping" type="b2602c69:ProjectViewProjectNode" />
@@ -251,9 +276,16 @@
               <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="main" type="462c0819:PsiDirectoryNode" />
               <item name="webapp" type="462c0819:PsiDirectoryNode" />
-              <item name="resources" type="462c0819:PsiDirectoryNode" />
-              <item name="assets" type="462c0819:PsiDirectoryNode" />
-              <item name="js" type="462c0819:PsiDirectoryNode" />
+              <item name="WEB-INF" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="ProjectOnlineShopping" type="b2602c69:ProjectViewProjectNode" />
+              <item name="ProjectOnlineShopping" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="webapp" type="462c0819:PsiDirectoryNode" />
+              <item name="WEB-INF" type="462c0819:PsiDirectoryNode" />
+              <item name="views" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
           <select />
@@ -273,15 +305,15 @@
     <property name="Downloaded.Files.Path.Enabled" value="false" />
     <property name="Repository.Attach.JavaDocs" value="false" />
     <property name="Repository.Attach.Sources" value="false" />
-    <property name="SearchEverywhereHistoryKey" value="ma&#9;FILE&#9;file://F:/Programming/Java/Projects-Web/Spring framework/OnlineShopping/ProjectOnlineShopping/src/main/java/com/ivo/onlineshopping/controller/ManageController.java&#10;sh&#9;FILE&#9;file://F:/Programming/Java/Projects-Web/Spring framework/OnlineShopping/ProjectOnlineShopping/src/main/webapp/resources/assets/css/shop-homepage.css&#10;da&#9;FILE&#9;file://F:/Programming/Java/Projects-Web/Spring framework/OnlineShopping/ProjectOnlineShopping/src/main/webapp/resources/assets/js/datatableProducts.js&#10;js&#9;FILE&#9;file://F:/Programming/Java/Projects-Web/Spring framework/OnlineShopping/ProjectOnlineShopping/src/main/java/com/ivo/onlineshopping/controller/JsonDataController.java&#10;jso&#9;FILE&#9;file://F:/Programming/Java/Projects-Web/Spring framework/OnlineShopping/ProjectOnlineShopping/src/main/java/com/ivo/onlineshopping/controller/JsonDataController.java&#10;pag&#9;FILE&#9;file://F:/Programming/Java/Projects-Web/Spring framework/OnlineShopping/ProjectOnlineShopping/src/main/webapp/WEB-INF/views/page.jsp&#10;h&#9;FILE&#9;file://F:/Programming/Java/Projects-Web/Spring framework/OnlineShopping/ProjectOnlineShopping/src/main/webapp/resources/assets/css/shop-homepage.css&#10;na&#9;FILE&#9;file://F:/Programming/Java/Projects-Web/Spring framework/OnlineShopping/ProjectOnlineShopping/src/main/webapp/WEB-INF/views/manageProducts.jsp&#10;we&#9;FILE&#9;file://F:/Programming/Java/Projects-Web/Spring framework/OnlineShopping/ProjectOnlineShopping/src/main/webapp/WEB-INF/web.xml&#10;dis&#9;FILE&#9;file://F:/Programming/Java/Projects-Web/Spring framework/OnlineShopping/ProjectOnlineShopping/src/main/webapp/WEB-INF/config/dispatcher-servlet.xml&#10;man&#9;FILE&#9;file://F:/Programming/Java/Projects-Web/Spring framework/OnlineShopping/ProjectOnlineShopping/src/main/webapp/WEB-INF/views/manageProducts.jsp&#10;Ma&#9;FILE&#9;file://F:/Programming/Java/Projects-Web/Spring framework/OnlineShopping/ProjectOnlineShopping/src/main/java/com/ivo/onlineshopping/controller/ManageController.java&#10;dat&#9;FILE&#9;file://F:/Programming/Java/Projects-Web/Spring framework/OnlineShopping/ProjectOnlineShopping/src/main/webapp/resources/assets/js/datatableProducts.js" />
+    <property name="SearchEverywhereHistoryKey" value="&#9;FILE&#9;file://F:/Programming/Java/Projects-Web/Spring framework/OnlineShopping/ProjectOnlineShopping/src/main/webapp/resources/assets/js/datatableProducts.js&#10;ma&#9;FILE&#9;file://F:/Programming/Java/Projects-Web/Spring framework/OnlineShopping/ProjectOnlineShopping/src/main/java/com/ivo/onlineshopping/controller/ManageController.java&#10;sh&#9;FILE&#9;file://F:/Programming/Java/Projects-Web/Spring framework/OnlineShopping/ProjectOnlineShopping/src/main/webapp/resources/assets/css/shop-homepage.css&#10;da&#9;FILE&#9;file://F:/Programming/Java/Projects-Web/Spring framework/OnlineShopping/ProjectOnlineShopping/src/main/webapp/resources/assets/js/datatableProducts.js&#10;js&#9;FILE&#9;file://F:/Programming/Java/Projects-Web/Spring framework/OnlineShopping/ProjectOnlineShopping/src/main/java/com/ivo/onlineshopping/controller/JsonDataController.java&#10;jso&#9;FILE&#9;file://F:/Programming/Java/Projects-Web/Spring framework/OnlineShopping/ProjectOnlineShopping/src/main/java/com/ivo/onlineshopping/controller/JsonDataController.java&#10;pag&#9;FILE&#9;file://F:/Programming/Java/Projects-Web/Spring framework/OnlineShopping/ProjectOnlineShopping/src/main/webapp/WEB-INF/views/page.jsp&#10;h&#9;FILE&#9;file://F:/Programming/Java/Projects-Web/Spring framework/OnlineShopping/ProjectOnlineShopping/src/main/webapp/resources/assets/css/shop-homepage.css&#10;na&#9;FILE&#9;file://F:/Programming/Java/Projects-Web/Spring framework/OnlineShopping/ProjectOnlineShopping/src/main/webapp/WEB-INF/views/manageProducts.jsp&#10;we&#9;FILE&#9;file://F:/Programming/Java/Projects-Web/Spring framework/OnlineShopping/ProjectOnlineShopping/src/main/webapp/WEB-INF/web.xml&#10;dis&#9;FILE&#9;file://F:/Programming/Java/Projects-Web/Spring framework/OnlineShopping/ProjectOnlineShopping/src/main/webapp/WEB-INF/config/dispatcher-servlet.xml&#10;man&#9;FILE&#9;file://F:/Programming/Java/Projects-Web/Spring framework/OnlineShopping/ProjectOnlineShopping/src/main/webapp/WEB-INF/views/manageProducts.jsp&#10;Ma&#9;FILE&#9;file://F:/Programming/Java/Projects-Web/Spring framework/OnlineShopping/ProjectOnlineShopping/src/main/java/com/ivo/onlineshopping/controller/ManageController.java&#10;dat&#9;FILE&#9;file://F:/Programming/Java/Projects-Web/Spring framework/OnlineShopping/ProjectOnlineShopping/src/main/webapp/resources/assets/js/datatableProducts.js" />
   </component>
   <component name="RecentsManager">
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="F:\Programming\Java\Projects-Web\Spring framework\OnlineShopping\ProjectOnlineShopping\src\main\webapp\WEB-INF\views" />
+    </key>
     <key name="CopyFile.RECENT_KEYS">
       <recent name="F:\Programming\Java\Projects-Web\Spring framework\OnlineShopping\ProjectOnlineShopping\src\main\webapp\resources\assets\js" />
       <recent name="F:\Programming\Java\Projects-Web\Spring framework\OnlineShopping\ProjectOnlineShopping\src\main\webapp\resources\assets\css" />
-    </key>
-    <key name="MoveFile.RECENT_KEYS">
-      <recent name="F:\Programming\Java\Projects-Web\Spring framework\OnlineShopping\ProjectOnlineShopping\src\main\webapp\WEB-INF\views" />
     </key>
   </component>
   <component name="RunDashboard">
@@ -511,12 +543,12 @@
       <workItem from="1517576469589" duration="2195000" />
       <workItem from="1517578713018" duration="1396000" />
       <workItem from="1517581666000" duration="1580000" />
-      <workItem from="1517644686624" duration="2054000" />
+      <workItem from="1517644686624" duration="3466000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="51904000" />
+    <option name="totallyTimeSpent" value="53316000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1382" height="754" extended-state="6" />
@@ -541,7 +573,7 @@
       <window_info id="Image Layers" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
       <window_info id="Java Enterprise" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="11" side_tool="false" content_ui="tabs" />
       <window_info id="Capture Analysis" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
-      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.72302735" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.72141707" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="9" side_tool="false" content_ui="tabs" />
       <window_info id="Spring" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="12" side_tool="false" content_ui="tabs" />
       <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="10" side_tool="false" content_ui="tabs" />
@@ -569,13 +601,6 @@
     <watches-manager />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/src/main/webapp/resources/assets/css/bootstrap.min.css">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/main/webapp/resources/assets/js/jquery.min.js" />
     <entry file="file://$PROJECT_DIR$/src/main/webapp/resources/assets/js/bootstrap.bundle.min.js" />
     <entry file="file://$PROJECT_DIR$/src/main/webapp/resources/assets/js/jquery.js">
@@ -800,7 +825,7 @@
         <state relative-caret-position="255">
           <caret line="15" column="50" lean-forward="true" selection-start-line="15" selection-start-column="50" selection-end-line="15" selection-end-column="50" />
           <folding>
-            <element signature="imports" expanded="true" />
+            <element signature="imports" expanded="false" />
           </folding>
         </state>
       </provider>
@@ -848,22 +873,14 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/webapp/WEB-INF/views/page.jsp">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="251">
-          <caret line="97" column="27" lean-forward="true" selection-start-line="97" selection-start-column="27" selection-end-line="97" selection-end-column="27" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/com/ivo/onlineshopping/validator/ProductValidator.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="333">
           <caret line="27" column="12" lean-forward="false" selection-start-line="27" selection-start-column="12" selection-end-line="27" selection-end-column="12" />
           <folding>
-            <element signature="imports" expanded="true" />
-            <element signature="e#295#296#0" expanded="true" />
-            <element signature="e#345#346#0" expanded="true" />
+            <element signature="imports" expanded="false" />
+            <element signature="e#295#296#0" expanded="false" />
+            <element signature="e#345#346#0" expanded="false" />
           </folding>
         </state>
       </provider>
@@ -873,8 +890,8 @@
         <state relative-caret-position="247">
           <caret line="25" column="40" lean-forward="false" selection-start-line="25" selection-start-column="21" selection-end-line="25" selection-end-column="40" />
           <folding>
-            <element signature="e#851#852#0" expanded="true" />
-            <element signature="e#891#892#0" expanded="true" />
+            <element signature="e#851#852#0" expanded="false" />
+            <element signature="e#891#892#0" expanded="false" />
           </folding>
         </state>
       </provider>
@@ -886,27 +903,11 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/webapp/resources/assets/js/datatableProducts.js">
+    <entry file="file://$PROJECT_DIR$/src/main/webapp/WEB-INF/views/page.jsp">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="51">
-          <caret line="141" column="21" lean-forward="false" selection-start-line="141" selection-start-column="21" selection-end-line="141" selection-end-column="21" />
-          <folding>
-            <marker date="1517644792981" expanded="true" signature="1618:1627" ph="..." />
-            <marker date="1517644792981" expanded="true" signature="2153:2159" ph="&amp;##160;" />
-            <marker date="1517644792981" expanded="true" signature="4554:4563" ph="..." />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/webapp/WEB-INF/views/manageProducts.jsp">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="298">
-          <caret line="200" column="32" lean-forward="false" selection-start-line="200" selection-start-column="32" selection-end-line="200" selection-end-column="32" />
-          <folding>
-            <element signature="n#div#0;n#div#0;n#!!top" expanded="false" />
-            <element signature="n#div#1;n#div#0;n#!!top" expanded="false" />
-            <element signature="e#7790#7797#1#HTML" expanded="true" />
-          </folding>
+        <state relative-caret-position="251">
+          <caret line="97" column="23" lean-forward="false" selection-start-line="97" selection-start-column="23" selection-end-line="97" selection-end-column="23" />
+          <folding />
         </state>
       </provider>
     </entry>
@@ -918,6 +919,38 @@
             <element signature="imports" expanded="true" />
             <element signature="e#5276#5277#0" expanded="true" />
             <element signature="e#5313#5314#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/webapp/WEB-INF/views/manageProducts.jsp">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="204">
+          <caret line="186" column="45" lean-forward="false" selection-start-line="186" selection-start-column="33" selection-end-line="186" selection-end-column="45" />
+          <folding>
+            <element signature="n#div#0;n#div#0;n#!!top" expanded="false" />
+            <element signature="n#div#1;n#div#0;n#!!top" expanded="false" />
+            <element signature="e#7790#7797#1#HTML" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/webapp/resources/assets/js/jquery.validate.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-204">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/webapp/resources/assets/js/datatableProducts.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="893">
+          <caret line="259" column="11" lean-forward="false" selection-start-line="259" selection-start-column="11" selection-end-line="259" selection-end-column="11" />
+          <folding>
+            <marker date="1517648100521" expanded="true" signature="1618:1627" ph="..." />
+            <marker date="1517648100521" expanded="true" signature="2153:2159" ph="&amp;##160;" />
+            <marker date="1517648100521" expanded="true" signature="4554:4563" ph="..." />
           </folding>
         </state>
       </provider>

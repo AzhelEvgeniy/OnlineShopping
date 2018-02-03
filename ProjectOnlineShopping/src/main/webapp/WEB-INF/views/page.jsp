@@ -92,7 +92,10 @@
     <!-- jQuery -->
     <script src="${contextRoot}/${js}/jquery.js"></script>
 
-    <!-- Bootstrap Core JavaScript -->
+    <!-- jQuery Validator Plugin -->
+    <script src="${contextRoot}/${js}/jquery.validate.js"></script>
+
+    <!-- Bootstrap Core -->
     <script src="${contextRoot}/${js}/bootstrap.min.js"></script>
 
     <!-- DataTables Plugin -->

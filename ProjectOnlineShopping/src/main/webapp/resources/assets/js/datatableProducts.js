@@ -208,4 +208,56 @@ $(function () {
     // --------------------------------------------
     // END data table for admin
     // --------------------------------------------
+
+
+    // --------------------------------------------
+    // validation code for category using jquery plugin
+
+    //--------------------------------
+    // validation code for category
+
+    var $categoryForm = $('#categoryForm');
+
+    if($categoryForm.length) {
+        $categoryForm.validate({
+
+            rules : {
+
+                name : {
+
+                    required: true,
+                    minlength: 2
+
+                },
+                description: {
+                    required: true
+                }
+
+            },
+
+            messages : {
+
+                name : {
+
+                    required: 'Please add the category name!',
+                    minlength: 'The category name should not be less than 2 characters'
+
+                },
+                description: {
+
+                    required: 'Please add a description for this category!'
+                }
+
+            },
+
+            errorElement: 'em',
+            errorPlacement: function(error, element) {
+                // add the class of help-block
+                error.addClass('help-block');
+                // add the error element after the input element
+                error.insertAfter(element);
+            }
+        });
+    }
+
 });
