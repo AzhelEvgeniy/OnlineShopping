@@ -11,7 +11,7 @@ import javax.persistence.Id;
 import org.hibernate.validator.constraints.NotBlank;
 
 @Entity
-public class Address {
+public class Address implements Serializable {
 
     /**
      *
