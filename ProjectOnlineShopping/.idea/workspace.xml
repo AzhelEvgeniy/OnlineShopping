@@ -8,10 +8,10 @@
   <component name="ChangeListManager">
     <list default="true" id="98f3d54b-e7f9-44c9-baf6-3186abaf7b2f" name="Default" comment="">
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/webapp/WEB-INF/views/flows/register/signup-confirm.jsp" afterPath="$PROJECT_DIR$/src/main/webapp/WEB-INF/views/flows/register/signup-confirm.jsp" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/com/ivo/onlineshopping/handler/RegisterHandler.java" afterPath="$PROJECT_DIR$/src/main/java/com/ivo/onlineshopping/handler/RegisterHandler.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/webapp/WEB-INF/config/dispatcher-servlet.xml" afterPath="$PROJECT_DIR$/src/main/webapp/WEB-INF/config/dispatcher-servlet.xml" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/webapp/WEB-INF/views/flows/register/signup-flow.xml" afterPath="$PROJECT_DIR$/src/main/webapp/WEB-INF/views/flows/register/signup-flow.xml" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../shopping_backend/.idea/workspace.xml" afterPath="$PROJECT_DIR$/../shopping_backend/.idea/workspace.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../shopping_backend/src/main/java/com/ivo/shoppingbackend/daoimpl/UserDAOImpl.java" afterPath="$PROJECT_DIR$/../shopping_backend/src/main/java/com/ivo/shoppingbackend/daoimpl/UserDAOImpl.java" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <ignored path="$PROJECT_DIR$/target/" />
@@ -38,8 +38,8 @@
       <file leaf-file-name="signup-flow.xml" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/main/webapp/WEB-INF/views/flows/register/signup-flow.xml">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="0">
-              <caret line="40" column="47" lean-forward="false" selection-start-line="40" selection-start-column="47" selection-end-line="40" selection-end-column="47" />
+            <state relative-caret-position="162">
+              <caret line="22" column="13" lean-forward="false" selection-start-line="22" selection-start-column="13" selection-end-line="22" selection-end-column="13" />
               <folding />
             </state>
           </provider>
@@ -48,8 +48,8 @@
       <file leaf-file-name="RegisterHandler.java" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/main/java/com/ivo/onlineshopping/handler/RegisterHandler.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="366">
-              <caret line="48" column="0" lean-forward="false" selection-start-line="48" selection-start-column="0" selection-end-line="48" selection-end-column="0" />
+            <state relative-caret-position="374">
+              <caret line="54" column="9" lean-forward="true" selection-start-line="54" selection-start-column="9" selection-end-line="54" selection-end-column="9" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -126,7 +126,6 @@
         <option value="$PROJECT_DIR$/src/main/webapp/WEB-INF/views/flows/shared/flows-header.jsp" />
         <option value="$PROJECT_DIR$/src/main/webapp/WEB-INF/views/flows/shared/flows-footer.jsp" />
         <option value="$PROJECT_DIR$/src/main/java/com/ivo/onlineshopping/controller/PageController.java" />
-        <option value="$PROJECT_DIR$/src/main/webapp/WEB-INF/config/dispatcher-servlet.xml" />
         <option value="$PROJECT_DIR$/src/main/webapp/WEB-INF/views/shared/navbar.jsp" />
         <option value="$PROJECT_DIR$/src/main/webapp/WEB-INF/views/flows/signup-flow.xml" />
         <option value="$PROJECT_DIR$/src/main/webapp/WEB-INF/views/flows/register/signup-personal.jsp" />
@@ -135,6 +134,7 @@
         <option value="$PROJECT_DIR$/src/main/webapp/WEB-INF/views/flows/register/signup-success.jsp" />
         <option value="$PROJECT_DIR$/src/main/java/com/ivo/onlineshopping/model/RegisterModel.java" />
         <option value="$PROJECT_DIR$/src/main/webapp/WEB-INF/views/flows/register/signup-confirm.jsp" />
+        <option value="$PROJECT_DIR$/src/main/webapp/WEB-INF/config/dispatcher-servlet.xml" />
         <option value="$PROJECT_DIR$/src/main/webapp/WEB-INF/views/flows/register/signup-flow.xml" />
         <option value="$PROJECT_DIR$/src/main/java/com/ivo/onlineshopping/handler/RegisterHandler.java" />
       </list>
@@ -201,6 +201,7 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
+      <pane id="AndroidView" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -234,14 +235,54 @@
               <item name="java" type="462c0819:PsiDirectoryNode" />
               <item name="onlineshopping" type="462c0819:PsiDirectoryNode" />
             </path>
+            <path>
+              <item name="ProjectOnlineShopping" type="b2602c69:ProjectViewProjectNode" />
+              <item name="ProjectOnlineShopping" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="onlineshopping" type="462c0819:PsiDirectoryNode" />
+              <item name="validator" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="ProjectOnlineShopping" type="b2602c69:ProjectViewProjectNode" />
+              <item name="ProjectOnlineShopping" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="webapp" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="ProjectOnlineShopping" type="b2602c69:ProjectViewProjectNode" />
+              <item name="ProjectOnlineShopping" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="webapp" type="462c0819:PsiDirectoryNode" />
+              <item name="resources" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="ProjectOnlineShopping" type="b2602c69:ProjectViewProjectNode" />
+              <item name="ProjectOnlineShopping" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="webapp" type="462c0819:PsiDirectoryNode" />
+              <item name="resources" type="462c0819:PsiDirectoryNode" />
+              <item name="assets" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="ProjectOnlineShopping" type="b2602c69:ProjectViewProjectNode" />
+              <item name="ProjectOnlineShopping" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="webapp" type="462c0819:PsiDirectoryNode" />
+              <item name="WEB-INF" type="462c0819:PsiDirectoryNode" />
+            </path>
           </expand>
           <select />
         </subPane>
       </pane>
-      <pane id="PackagesPane" />
       <pane id="Scratches" />
       <pane id="Scope" />
-      <pane id="AndroidView" />
+      <pane id="PackagesPane" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -256,7 +297,7 @@
     <property name="Downloaded.Files.Path.Enabled" value="false" />
     <property name="Repository.Attach.JavaDocs" value="false" />
     <property name="Repository.Attach.Sources" value="false" />
-    <property name="SearchEverywhereHistoryKey" value="re&#9;FILE&#9;file://F:/Programming/Java/Projects-Web/Spring framework/OnlineShopping/ProjectOnlineShopping/src/main/java/com/ivo/onlineshopping/handler/RegisterHandler.java&#10;s&#9;FILE&#9;file://F:/Programming/Java/Projects-Web/Spring framework/OnlineShopping/ProjectOnlineShopping/src/main/webapp/WEB-INF/views/flows/register/signup-confirm.jsp&#10;si&#9;FILE&#9;file://F:/Programming/Java/Projects-Web/Spring framework/OnlineShopping/ProjectOnlineShopping/src/main/webapp/WEB-INF/views/flows/register/signup-confirm.jsp&#10;flo&#9;FILE&#9;file://F:/Programming/Java/Projects-Web/Spring framework/OnlineShopping/ProjectOnlineShopping/src/main/webapp/WEB-INF/views/flows/register/signup-flow.xml&#10;sig&#9;FILE&#9;file://F:/Programming/Java/Projects-Web/Spring framework/OnlineShopping/ProjectOnlineShopping/src/main/webapp/WEB-INF/views/flows/register/signup-personal.jsp&#10;page&#9;FILE&#9;file://F:/Programming/Java/Projects-Web/Spring framework/OnlineShopping/ProjectOnlineShopping/src/main/java/com/ivo/onlineshopping/controller/PageController.java&#10;nav&#9;FILE&#9;file://F:/Programming/Java/Projects-Web/Spring framework/OnlineShopping/ProjectOnlineShopping/src/main/webapp/WEB-INF/views/shared/navbar.jsp&#10;ma&#9;FILE&#9;file://F:/Programming/Java/Projects-Web/Spring framework/OnlineShopping/ProjectOnlineShopping/src/main/java/com/ivo/onlineshopping/controller/ManageController.java&#10;sh&#9;FILE&#9;file://F:/Programming/Java/Projects-Web/Spring framework/OnlineShopping/ProjectOnlineShopping/src/main/webapp/resources/assets/css/shop-homepage.css&#10;da&#9;FILE&#9;file://F:/Programming/Java/Projects-Web/Spring framework/OnlineShopping/ProjectOnlineShopping/src/main/webapp/resources/assets/js/datatableProducts.js&#10;js&#9;FILE&#9;file://F:/Programming/Java/Projects-Web/Spring framework/OnlineShopping/ProjectOnlineShopping/src/main/java/com/ivo/onlineshopping/controller/JsonDataController.java&#10;jso&#9;FILE&#9;file://F:/Programming/Java/Projects-Web/Spring framework/OnlineShopping/ProjectOnlineShopping/src/main/java/com/ivo/onlineshopping/controller/JsonDataController.java&#10;pag&#9;FILE&#9;file://F:/Programming/Java/Projects-Web/Spring framework/OnlineShopping/ProjectOnlineShopping/src/main/webapp/WEB-INF/views/page.jsp&#10;h&#9;FILE&#9;file://F:/Programming/Java/Projects-Web/Spring framework/OnlineShopping/ProjectOnlineShopping/src/main/webapp/resources/assets/css/shop-homepage.css&#10;na&#9;FILE&#9;file://F:/Programming/Java/Projects-Web/Spring framework/OnlineShopping/ProjectOnlineShopping/src/main/webapp/WEB-INF/views/manageProducts.jsp&#10;we&#9;FILE&#9;file://F:/Programming/Java/Projects-Web/Spring framework/OnlineShopping/ProjectOnlineShopping/src/main/webapp/WEB-INF/web.xml&#10;dis&#9;FILE&#9;file://F:/Programming/Java/Projects-Web/Spring framework/OnlineShopping/ProjectOnlineShopping/src/main/webapp/WEB-INF/config/dispatcher-servlet.xml&#10;man&#9;FILE&#9;file://F:/Programming/Java/Projects-Web/Spring framework/OnlineShopping/ProjectOnlineShopping/src/main/webapp/WEB-INF/views/manageProducts.jsp&#10;Ma&#9;FILE&#9;file://F:/Programming/Java/Projects-Web/Spring framework/OnlineShopping/ProjectOnlineShopping/src/main/java/com/ivo/onlineshopping/controller/ManageController.java&#10;dat&#9;FILE&#9;file://F:/Programming/Java/Projects-Web/Spring framework/OnlineShopping/ProjectOnlineShopping/src/main/webapp/resources/assets/js/datatableProducts.js" />
+    <property name="SearchEverywhereHistoryKey" value="&#9;FILE&#9;file://F:/Programming/Java/Projects-Web/Spring framework/OnlineShopping/ProjectOnlineShopping/src/main/java/com/ivo/onlineshopping/handler/RegisterHandler.java&#10;dis&#9;FILE&#9;file://F:/Programming/Java/Projects-Web/Spring framework/OnlineShopping/ProjectOnlineShopping/src/main/webapp/WEB-INF/config/dispatcher-servlet.xml&#10;re&#9;FILE&#9;file://F:/Programming/Java/Projects-Web/Spring framework/OnlineShopping/ProjectOnlineShopping/src/main/java/com/ivo/onlineshopping/handler/RegisterHandler.java&#10;s&#9;FILE&#9;file://F:/Programming/Java/Projects-Web/Spring framework/OnlineShopping/ProjectOnlineShopping/src/main/webapp/WEB-INF/views/flows/register/signup-confirm.jsp&#10;si&#9;FILE&#9;file://F:/Programming/Java/Projects-Web/Spring framework/OnlineShopping/ProjectOnlineShopping/src/main/webapp/WEB-INF/views/flows/register/signup-confirm.jsp&#10;flo&#9;FILE&#9;file://F:/Programming/Java/Projects-Web/Spring framework/OnlineShopping/ProjectOnlineShopping/src/main/webapp/WEB-INF/views/flows/register/signup-flow.xml&#10;sig&#9;FILE&#9;file://F:/Programming/Java/Projects-Web/Spring framework/OnlineShopping/ProjectOnlineShopping/src/main/webapp/WEB-INF/views/flows/register/signup-personal.jsp&#10;page&#9;FILE&#9;file://F:/Programming/Java/Projects-Web/Spring framework/OnlineShopping/ProjectOnlineShopping/src/main/java/com/ivo/onlineshopping/controller/PageController.java&#10;nav&#9;FILE&#9;file://F:/Programming/Java/Projects-Web/Spring framework/OnlineShopping/ProjectOnlineShopping/src/main/webapp/WEB-INF/views/shared/navbar.jsp&#10;ma&#9;FILE&#9;file://F:/Programming/Java/Projects-Web/Spring framework/OnlineShopping/ProjectOnlineShopping/src/main/java/com/ivo/onlineshopping/controller/ManageController.java&#10;sh&#9;FILE&#9;file://F:/Programming/Java/Projects-Web/Spring framework/OnlineShopping/ProjectOnlineShopping/src/main/webapp/resources/assets/css/shop-homepage.css&#10;da&#9;FILE&#9;file://F:/Programming/Java/Projects-Web/Spring framework/OnlineShopping/ProjectOnlineShopping/src/main/webapp/resources/assets/js/datatableProducts.js&#10;js&#9;FILE&#9;file://F:/Programming/Java/Projects-Web/Spring framework/OnlineShopping/ProjectOnlineShopping/src/main/java/com/ivo/onlineshopping/controller/JsonDataController.java&#10;jso&#9;FILE&#9;file://F:/Programming/Java/Projects-Web/Spring framework/OnlineShopping/ProjectOnlineShopping/src/main/java/com/ivo/onlineshopping/controller/JsonDataController.java&#10;pag&#9;FILE&#9;file://F:/Programming/Java/Projects-Web/Spring framework/OnlineShopping/ProjectOnlineShopping/src/main/webapp/WEB-INF/views/page.jsp&#10;h&#9;FILE&#9;file://F:/Programming/Java/Projects-Web/Spring framework/OnlineShopping/ProjectOnlineShopping/src/main/webapp/resources/assets/css/shop-homepage.css&#10;na&#9;FILE&#9;file://F:/Programming/Java/Projects-Web/Spring framework/OnlineShopping/ProjectOnlineShopping/src/main/webapp/WEB-INF/views/manageProducts.jsp&#10;we&#9;FILE&#9;file://F:/Programming/Java/Projects-Web/Spring framework/OnlineShopping/ProjectOnlineShopping/src/main/webapp/WEB-INF/web.xml&#10;man&#9;FILE&#9;file://F:/Programming/Java/Projects-Web/Spring framework/OnlineShopping/ProjectOnlineShopping/src/main/webapp/WEB-INF/views/manageProducts.jsp&#10;Ma&#9;FILE&#9;file://F:/Programming/Java/Projects-Web/Spring framework/OnlineShopping/ProjectOnlineShopping/src/main/java/com/ivo/onlineshopping/controller/ManageController.java&#10;dat&#9;FILE&#9;file://F:/Programming/Java/Projects-Web/Spring framework/OnlineShopping/ProjectOnlineShopping/src/main/webapp/resources/assets/js/datatableProducts.js" />
   </component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
@@ -501,12 +542,13 @@
       <workItem from="1517826118169" duration="806000" />
       <workItem from="1517826980163" duration="222000" />
       <workItem from="1517827228615" duration="2193000" />
-      <workItem from="1517829973794" duration="90000" />
+      <workItem from="1517829973794" duration="1133000" />
+      <workItem from="1517831140895" duration="324000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="60997000" />
+    <option name="totallyTimeSpent" value="62364000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1382" height="754" extended-state="6" />
@@ -531,11 +573,11 @@
       <window_info id="Image Layers" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
       <window_info id="Java Enterprise" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="11" side_tool="false" content_ui="tabs" />
       <window_info id="Capture Analysis" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
-      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.7020934" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.7020934" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="9" side_tool="false" content_ui="tabs" />
       <window_info id="Spring" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="12" side_tool="false" content_ui="tabs" />
       <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="10" side_tool="false" content_ui="tabs" />
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.79727685" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.79454255" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
       <window_info id="Bean Validation" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Web" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Theme Preview" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="8" side_tool="false" content_ui="tabs" />
@@ -708,13 +750,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/ivo/onlineshopping/validator/ProductValidator.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="333">
-          <caret line="27" column="12" lean-forward="false" selection-start-line="27" selection-start-column="12" selection-end-line="27" selection-end-column="12" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/com/ivo/onlineshopping/controller/JsonDataController.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="247">
@@ -733,6 +768,11 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="561">
           <caret line="51" column="14" lean-forward="false" selection-start-line="51" selection-start-column="14" selection-end-line="51" selection-end-column="14" />
+          <folding>
+            <element signature="imports" expanded="false" />
+            <element signature="e#5276#5277#0" expanded="false" />
+            <element signature="e#5313#5314#0" expanded="false" />
+          </folding>
         </state>
       </provider>
     </entry>
@@ -796,13 +836,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="349">
           <caret line="119" column="40" lean-forward="true" selection-start-line="119" selection-start-column="40" selection-end-line="119" selection-end-column="40" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/webapp/WEB-INF/config/dispatcher-servlet.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="179">
-          <caret line="47" column="71" lean-forward="false" selection-start-line="47" selection-start-column="71" selection-end-line="47" selection-end-column="71" />
           <folding />
         </state>
       </provider>
@@ -832,6 +865,7 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="340">
           <caret line="50" column="21" lean-forward="false" selection-start-line="50" selection-start-column="21" selection-end-line="50" selection-end-column="21" />
+          <folding />
         </state>
       </provider>
     </entry>
@@ -863,14 +897,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/webapp/WEB-INF/views/flows/register/signup-flow.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="40" column="47" lean-forward="false" selection-start-line="40" selection-start-column="47" selection-end-line="40" selection-end-column="47" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="jar://$MAVEN_REPOSITORY$/com/ivo/shopping_backend/1.0-SNAPSHOT/shopping_backend-1.0-SNAPSHOT-sources.jar!/com/ivo/shoppingbackend/daoimpl/UserDAOImpl.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="238">
@@ -881,10 +907,33 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/ivo/onlineshopping/validator/ProductValidator.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="342">
+          <caret line="27" column="12" lean-forward="false" selection-start-line="27" selection-start-column="12" selection-end-line="27" selection-end-column="12" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/webapp/WEB-INF/config/dispatcher-servlet.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1122">
+          <caret line="66" column="91" lean-forward="false" selection-start-line="66" selection-start-column="91" selection-end-line="66" selection-end-column="91" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/webapp/WEB-INF/views/flows/register/signup-flow.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="162">
+          <caret line="22" column="13" lean-forward="false" selection-start-line="22" selection-start-column="13" selection-end-line="22" selection-end-column="13" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/com/ivo/onlineshopping/handler/RegisterHandler.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="366">
-          <caret line="48" column="0" lean-forward="false" selection-start-line="48" selection-start-column="0" selection-end-line="48" selection-end-column="0" />
+        <state relative-caret-position="374">
+          <caret line="54" column="9" lean-forward="true" selection-start-line="54" selection-start-column="9" selection-end-line="54" selection-end-column="9" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
