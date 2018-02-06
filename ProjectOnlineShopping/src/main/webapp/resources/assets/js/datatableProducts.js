@@ -78,9 +78,15 @@ $(function () {
                                     '<span class="glyphicon glyphicon-shopping-cart"></span>' +
                                 '</a>';
                         } else {
-                            str += '<a href="' + window.contextRoot + '/cart/add/' + data + '/product" class="btn btn-success">' +
+                            if (window.userRole == 'ADMIN') {
+                                str += '<a href="' + window.contextRoot + '/manage/' + data + '/product" class="btn btn-warning">' +
+                                    '<span class="glyphicon glyphicon-pencil"></span>' +
+                                    '</a>';
+                            } else {
+                                str += '<a href="' + window.contextRoot + '/cart/add/' + data + '/product" class="btn btn-success">' +
                                     '<span class="glyphicon glyphicon-shopping-cart"></span>' +
-                                '</a>';
+                                    '</a>';
+                            }
                         }
 
                         return str;
