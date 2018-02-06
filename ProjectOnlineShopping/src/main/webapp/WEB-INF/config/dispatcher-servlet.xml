@@ -15,8 +15,6 @@
     ">
 
     <context:component-scan base-package="com.ivo.onlineshopping"/>
-    <!-- Shopping backend -->
-    <context:component-scan base-package="com.ivo.shoppingbackend"/>
 
     <bean id="viewResolver"
           class="org.springframework.web.servlet.view.InternalResourceViewResolver">
