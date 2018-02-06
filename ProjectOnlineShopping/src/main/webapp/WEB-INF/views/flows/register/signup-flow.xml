@@ -53,7 +53,7 @@
 
     <!-- Global Transition -->
     <global-transitions>
-        <transition on="home" to="home" validate="true"/>
+        <transition on="home" to="home" validate="false"/>
     </global-transitions>
 
 </flow>
