@@ -115,6 +115,8 @@
     <!-- my scripts -->
     <script src="${contextRoot}/${js}/navigation.js"></script>
     <script src="${contextRoot}/${js}/datatableProducts.js"></script>
+    <script src="${contextRoot}/${js}/cartViewHandler.js"></script>
+
 </body>
 
 </html>
