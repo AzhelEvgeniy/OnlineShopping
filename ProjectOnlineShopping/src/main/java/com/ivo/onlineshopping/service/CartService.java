@@ -2,6 +2,7 @@ package com.ivo.onlineshopping.service;
 
 import com.ivo.onlineshopping.model.UserModel;
 import com.ivo.shoppingbackend.dao.CartLineDAO;
+import com.ivo.shoppingbackend.dao.ProductDAO;
 import com.ivo.shoppingbackend.dto.Cart;
 import com.ivo.shoppingbackend.dto.CartLine;
 import com.ivo.shoppingbackend.dto.Product;
@@ -16,6 +17,9 @@ public class CartService {
 
     @Autowired
     private CartLineDAO cartLineDAO;
+
+    @Autowired
+    private ProductDAO productDAO;
 
     @Autowired
     private HttpSession httpSession;
@@ -76,5 +80,37 @@ public class CartService {
 
             return "result=deleted";
         }
+    }
+
+    public String addCartLine(int productId) {
+        String response = "error";
+
+        Cart cart = this.getCart();
+
+        CartLine cartLine = cartLineDAO.getByCartAndProduct(cart.getId(), productId);
+        if (cartLine == null) {
+            // add a new cartLine
+            cartLine = new CartLine();
+
+            // fetch the product
+            Product product = productDAO.get(productId);
+
+            cartLine.setCartId(cart.getId());
+            cartLine.setProduct(product);
+            cartLine.setBuyingPrice(product.getUnitPrice());
+            cartLine.setProductCount(1);
+            cartLine.setTotal(product.getUnitPrice());
+            cartLine.setAvailable(true);
+
+            cartLineDAO.add(cartLine);
+
+            cart.setCartLines(cart.getCartLines() + 1);
+            cart.setGrandTotal(cart.getGrandTotal() + cartLine.getTotal());
+            cartLineDAO.updateCart(cart);
+
+            response = "result=added";
+        }
+
+        return response;
     }
 }
