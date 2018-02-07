@@ -45,29 +45,35 @@
             <div class="row">
                 <div class="col-xs-12">
 
-                    <table id="productListTable" class="table table-striped table-bordered">
-                        <thead>
-                            <tr>
-                                <th>Image</th>
-                                <th>Name</th>
-                                <th>Brand</th>
-                                <th>Price</th>
-                                <th>Qtu. Available</th>
-                                <th>Actions</th>
-                            </tr>
-                        </thead>
+                    <div class="containter-fluid">
+                        <div class="table-responsive">
 
-                        <tfoot>
-                            <tr>
-                                <th>Image</th>
-                                <th>Name</th>
-                                <th>Brand</th>
-                                <th>Price</th>
-                                <th>Qtu. Available</th>
-                                <th>Actions</th>
-                            </tr>
-                        </tfoot>
-                    </table>
+                            <table id="productListTable" class="table table-striped table-bordered">
+                                <thead>
+                                <tr>
+                                    <th>Image</th>
+                                    <th>Name</th>
+                                    <th>Brand</th>
+                                    <th>Price</th>
+                                    <th>Qtu. Available</th>
+                                    <th>Actions</th>
+                                </tr>
+                                </thead>
+
+                                <tfoot>
+                                <tr>
+                                    <th>Image</th>
+                                    <th>Name</th>
+                                    <th>Brand</th>
+                                    <th>Price</th>
+                                    <th>Qtu. Available</th>
+                                    <th>Actions</th>
+                                </tr>
+                                </tfoot>
+                            </table>
+
+                        </div>
+                    </div>
 
                 </div>
             </div>
