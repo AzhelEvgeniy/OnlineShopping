@@ -9,10 +9,7 @@
     <bookmark url="file://$PROJECT_DIR$/src/main/webapp/WEB-INF/views/shared/navbar.jsp" line="68" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="98f3d54b-e7f9-44c9-baf6-3186abaf7b2f" name="Default" comment="">
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/com/ivo/onlineshopping/controller/CartController.java" afterPath="$PROJECT_DIR$/src/main/java/com/ivo/onlineshopping/controller/CartController.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/com/ivo/onlineshopping/service/CartService.java" afterPath="$PROJECT_DIR$/src/main/java/com/ivo/onlineshopping/service/CartService.java" />
-    </list>
+    <list default="true" id="98f3d54b-e7f9-44c9-baf6-3186abaf7b2f" name="Default" comment="" />
     <ignored path="$PROJECT_DIR$/out/" />
     <ignored path="$PROJECT_DIR$/target/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -565,16 +562,15 @@
       <workItem from="1517994125266" duration="2125000" />
       <workItem from="1518005449136" duration="48000" />
       <workItem from="1518006695372" duration="4170000" />
-      <workItem from="1518014062065" duration="1348000" />
+      <workItem from="1518014062065" duration="1473000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="81784000" />
+    <option name="totallyTimeSpent" value="81909000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="683" y="0" width="683" height="738" extended-state="0" />
-    <editor active="true" />
     <layout>
       <window_info id="Palette" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="true" content_ui="tabs" />
