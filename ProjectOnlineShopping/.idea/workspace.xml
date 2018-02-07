@@ -13,7 +13,6 @@
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/com/ivo/onlineshopping/controller/CartController.java" afterPath="$PROJECT_DIR$/src/main/java/com/ivo/onlineshopping/controller/CartController.java" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/com/ivo/onlineshopping/service/CartService.java" afterPath="$PROJECT_DIR$/src/main/java/com/ivo/onlineshopping/service/CartService.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/webapp/WEB-INF/views/page.jsp" afterPath="$PROJECT_DIR$/src/main/webapp/WEB-INF/views/page.jsp" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <ignored path="$PROJECT_DIR$/target/" />
@@ -37,31 +36,11 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file leaf-file-name="cart.jsp" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/webapp/WEB-INF/views/cart.jsp">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="612">
-              <caret line="36" column="89" lean-forward="false" selection-start-line="36" selection-start-column="89" selection-end-line="36" selection-end-column="89" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="cartViewHandler.js" pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/src/main/webapp/resources/assets/js/cartViewHandler.js">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="459">
-              <caret line="27" column="79" lean-forward="false" selection-start-line="27" selection-start-column="79" selection-end-line="27" selection-end-column="79" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
       <file leaf-file-name="CartController.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/main/java/com/ivo/onlineshopping/controller/CartController.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="214">
-              <caret line="31" column="9" lean-forward="false" selection-start-line="31" selection-start-column="9" selection-end-line="31" selection-end-column="9" />
+            <state relative-caret-position="179">
+              <caret line="38" column="21" lean-forward="false" selection-start-line="38" selection-start-column="21" selection-end-line="38" selection-end-column="21" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -69,11 +48,21 @@
           </provider>
         </entry>
       </file>
+      <file leaf-file-name="cartViewHandler.js" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/src/main/webapp/resources/assets/js/cartViewHandler.js">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="255">
+              <caret line="15" column="19" lean-forward="false" selection-start-line="15" selection-start-column="19" selection-end-line="15" selection-end-column="19" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
       <file leaf-file-name="CartService.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/main/java/com/ivo/onlineshopping/service/CartService.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="370">
-              <caret line="53" column="86" lean-forward="false" selection-start-line="53" selection-start-column="86" selection-end-line="53" selection-end-column="86" />
+            <state relative-caret-position="418">
+              <caret line="76" column="36" lean-forward="false" selection-start-line="76" selection-start-column="36" selection-end-line="76" selection-end-column="36" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -168,9 +157,9 @@
         <option value="$PROJECT_DIR$/src/main/webapp/resources/assets/js/navigation.js" />
         <option value="$PROJECT_DIR$/src/main/webapp/WEB-INF/views/cart.jsp" />
         <option value="$PROJECT_DIR$/src/main/webapp/WEB-INF/views/page.jsp" />
+        <option value="$PROJECT_DIR$/src/main/webapp/resources/assets/js/cartViewHandler.js" />
         <option value="$PROJECT_DIR$/src/main/java/com/ivo/onlineshopping/service/CartService.java" />
         <option value="$PROJECT_DIR$/src/main/java/com/ivo/onlineshopping/controller/CartController.java" />
-        <option value="$PROJECT_DIR$/src/main/webapp/resources/assets/js/cartViewHandler.js" />
       </list>
     </option>
   </component>
@@ -322,7 +311,7 @@
     <property name="Downloaded.Files.Path.Enabled" value="false" />
     <property name="Repository.Attach.JavaDocs" value="false" />
     <property name="Repository.Attach.Sources" value="false" />
-    <property name="SearchEverywhereHistoryKey" value="ca&#9;FILE&#9;file://F:/Programming/Java/Projects-Web/Spring framework/OnlineShopping/ProjectOnlineShopping/src/main/java/com/ivo/onlineshopping/controller/CartController.java&#10;da&#9;FILE&#9;file://F:/Programming/Java/Projects-Web/Spring framework/OnlineShopping/ProjectOnlineShopping/src/main/webapp/resources/assets/js/datatableProducts.js&#10;dat&#9;FILE&#9;file://F:/Programming/Java/Projects-Web/Spring framework/OnlineShopping/ProjectOnlineShopping/src/main/webapp/resources/assets/js/datatableProducts.js&#10;lis&#9;FILE&#9;file://F:/Programming/Java/Projects-Web/Spring framework/OnlineShopping/ProjectOnlineShopping/src/main/webapp/WEB-INF/views/listProducts.jsp&#10;na&#9;FILE&#9;file://F:/Programming/Java/Projects-Web/Spring framework/OnlineShopping/ProjectOnlineShopping/src/main/webapp/resources/assets/js/navigation.js&#10;pa&#9;FILE&#9;file://F:/Programming/Java/Projects-Web/Spring framework/OnlineShopping/ProjectOnlineShopping/src/main/webapp/WEB-INF/views/page.jsp&#10;nav&#9;FILE&#9;file://F:/Programming/Java/Projects-Web/Spring framework/OnlineShopping/ProjectOnlineShopping/src/main/webapp/WEB-INF/views/shared/navbar.jsp&#10;sh&#9;FILE&#9;file://F:/Programming/Java/Projects-Web/Spring framework/OnlineShopping/ProjectOnlineShopping/src/main/webapp/resources/assets/css/shop-homepage.css&#10;man&#9;FILE&#9;file://F:/Programming/Java/Projects-Web/Spring framework/OnlineShopping/ProjectOnlineShopping/src/main/webapp/WEB-INF/views/manageProducts.jsp&#10;sin&#9;FILE&#9;file://F:/Programming/Java/Projects-Web/Spring framework/OnlineShopping/ProjectOnlineShopping/src/main/webapp/WEB-INF/views/singleProduct.jsp&#10;list&#9;FILE&#9;file://F:/Programming/Java/Projects-Web/Spring framework/OnlineShopping/ProjectOnlineShopping/src/main/webapp/WEB-INF/views/listProducts.jsp&#10;log&#9;FILE&#9;file://F:/Programming/Java/Projects-Web/Spring framework/OnlineShopping/ProjectOnlineShopping/src/main/webapp/WEB-INF/views/login.jsp&#10;pag&#9;FILE&#9;file://F:/Programming/Java/Projects-Web/Spring framework/OnlineShopping/ProjectOnlineShopping/src/main/java/com/ivo/onlineshopping/controller/PageController.java&#10;тфм&#9;FILE&#9;file://F:/Programming/Java/Projects-Web/Spring framework/OnlineShopping/ProjectOnlineShopping/src/main/webapp/WEB-INF/views/shared/navbar.jsp&#10;spr&#9;FILE&#9;file://F:/Programming/Java/Projects-Web/Spring framework/OnlineShopping/ProjectOnlineShopping/src/main/webapp/WEB-INF/config/spring-security.xml&#10;si&#9;FILE&#9;file://F:/Programming/Java/Projects-Web/Spring framework/OnlineShopping/ProjectOnlineShopping/src/main/webapp/WEB-INF/views/singleProduct.jsp&#10;au&#9;FILE&#9;file://F:/Programming/Java/Projects-Web/Spring framework/OnlineShopping/ProjectOnlineShopping/src/main/webapp/resources/assets/js/authorization.js&#10;navb&#9;FILE&#9;file://F:/Programming/Java/Projects-Web/Spring framework/OnlineShopping/ProjectOnlineShopping/src/main/webapp/WEB-INF/views/shared/navbar.jsp&#10;Reg&#9;FILE&#9;file://F:/Programming/Java/Projects-Web/Spring framework/OnlineShopping/ProjectOnlineShopping/src/main/java/com/ivo/onlineshopping/handler/RegisterHandler.java&#10;err&#9;FILE&#9;file://F:/Programming/Java/Projects-Web/Spring framework/OnlineShopping/ProjectOnlineShopping/src/main/webapp/WEB-INF/views/error.jsp&#10;dis&#9;FILE&#9;file://F:/Programming/Java/Projects-Web/Spring framework/OnlineShopping/ProjectOnlineShopping/src/main/webapp/WEB-INF/config/dispatcher-servlet.xml&#10;re&#9;FILE&#9;file://F:/Programming/Java/Projects-Web/Spring framework/OnlineShopping/ProjectOnlineShopping/src/main/java/com/ivo/onlineshopping/handler/RegisterHandler.java&#10;s&#9;FILE&#9;file://F:/Programming/Java/Projects-Web/Spring framework/OnlineShopping/ProjectOnlineShopping/src/main/webapp/WEB-INF/views/flows/register/signup-confirm.jsp&#10;flo&#9;FILE&#9;file://F:/Programming/Java/Projects-Web/Spring framework/OnlineShopping/ProjectOnlineShopping/src/main/webapp/WEB-INF/views/flows/register/signup-flow.xml&#10;sig&#9;FILE&#9;file://F:/Programming/Java/Projects-Web/Spring framework/OnlineShopping/ProjectOnlineShopping/src/main/webapp/WEB-INF/views/flows/register/signup-personal.jsp&#10;page&#9;FILE&#9;file://F:/Programming/Java/Projects-Web/Spring framework/OnlineShopping/ProjectOnlineShopping/src/main/java/com/ivo/onlineshopping/controller/PageController.java&#10;ma&#9;FILE&#9;file://F:/Programming/Java/Projects-Web/Spring framework/OnlineShopping/ProjectOnlineShopping/src/main/java/com/ivo/onlineshopping/controller/ManageController.java&#10;js&#9;FILE&#9;file://F:/Programming/Java/Projects-Web/Spring framework/OnlineShopping/ProjectOnlineShopping/src/main/java/com/ivo/onlineshopping/controller/JsonDataController.java&#10;jso&#9;FILE&#9;file://F:/Programming/Java/Projects-Web/Spring framework/OnlineShopping/ProjectOnlineShopping/src/main/java/com/ivo/onlineshopping/controller/JsonDataController.java&#10;h&#9;FILE&#9;file://F:/Programming/Java/Projects-Web/Spring framework/OnlineShopping/ProjectOnlineShopping/src/main/webapp/resources/assets/css/shop-homepage.css&#10;we&#9;FILE&#9;file://F:/Programming/Java/Projects-Web/Spring framework/OnlineShopping/ProjectOnlineShopping/src/main/webapp/WEB-INF/web.xml&#10;Ma&#9;FILE&#9;file://F:/Programming/Java/Projects-Web/Spring framework/OnlineShopping/ProjectOnlineShopping/src/main/java/com/ivo/onlineshopping/controller/ManageController.java" />
+    <property name="SearchEverywhereHistoryKey" value="&#9;FILE&#9;file://F:/Programming/Java/Projects-Web/Spring framework/OnlineShopping/ProjectOnlineShopping/src/main/webapp/resources/assets/js/cartViewHandler.js&#10;ca&#9;FILE&#9;file://F:/Programming/Java/Projects-Web/Spring framework/OnlineShopping/ProjectOnlineShopping/src/main/java/com/ivo/onlineshopping/controller/CartController.java&#10;da&#9;FILE&#9;file://F:/Programming/Java/Projects-Web/Spring framework/OnlineShopping/ProjectOnlineShopping/src/main/webapp/resources/assets/js/datatableProducts.js&#10;dat&#9;FILE&#9;file://F:/Programming/Java/Projects-Web/Spring framework/OnlineShopping/ProjectOnlineShopping/src/main/webapp/resources/assets/js/datatableProducts.js&#10;lis&#9;FILE&#9;file://F:/Programming/Java/Projects-Web/Spring framework/OnlineShopping/ProjectOnlineShopping/src/main/webapp/WEB-INF/views/listProducts.jsp&#10;na&#9;FILE&#9;file://F:/Programming/Java/Projects-Web/Spring framework/OnlineShopping/ProjectOnlineShopping/src/main/webapp/resources/assets/js/navigation.js&#10;pa&#9;FILE&#9;file://F:/Programming/Java/Projects-Web/Spring framework/OnlineShopping/ProjectOnlineShopping/src/main/webapp/WEB-INF/views/page.jsp&#10;nav&#9;FILE&#9;file://F:/Programming/Java/Projects-Web/Spring framework/OnlineShopping/ProjectOnlineShopping/src/main/webapp/WEB-INF/views/shared/navbar.jsp&#10;sh&#9;FILE&#9;file://F:/Programming/Java/Projects-Web/Spring framework/OnlineShopping/ProjectOnlineShopping/src/main/webapp/resources/assets/css/shop-homepage.css&#10;man&#9;FILE&#9;file://F:/Programming/Java/Projects-Web/Spring framework/OnlineShopping/ProjectOnlineShopping/src/main/webapp/WEB-INF/views/manageProducts.jsp&#10;sin&#9;FILE&#9;file://F:/Programming/Java/Projects-Web/Spring framework/OnlineShopping/ProjectOnlineShopping/src/main/webapp/WEB-INF/views/singleProduct.jsp&#10;list&#9;FILE&#9;file://F:/Programming/Java/Projects-Web/Spring framework/OnlineShopping/ProjectOnlineShopping/src/main/webapp/WEB-INF/views/listProducts.jsp&#10;log&#9;FILE&#9;file://F:/Programming/Java/Projects-Web/Spring framework/OnlineShopping/ProjectOnlineShopping/src/main/webapp/WEB-INF/views/login.jsp&#10;pag&#9;FILE&#9;file://F:/Programming/Java/Projects-Web/Spring framework/OnlineShopping/ProjectOnlineShopping/src/main/java/com/ivo/onlineshopping/controller/PageController.java&#10;тфм&#9;FILE&#9;file://F:/Programming/Java/Projects-Web/Spring framework/OnlineShopping/ProjectOnlineShopping/src/main/webapp/WEB-INF/views/shared/navbar.jsp&#10;spr&#9;FILE&#9;file://F:/Programming/Java/Projects-Web/Spring framework/OnlineShopping/ProjectOnlineShopping/src/main/webapp/WEB-INF/config/spring-security.xml&#10;si&#9;FILE&#9;file://F:/Programming/Java/Projects-Web/Spring framework/OnlineShopping/ProjectOnlineShopping/src/main/webapp/WEB-INF/views/singleProduct.jsp&#10;au&#9;FILE&#9;file://F:/Programming/Java/Projects-Web/Spring framework/OnlineShopping/ProjectOnlineShopping/src/main/webapp/resources/assets/js/authorization.js&#10;navb&#9;FILE&#9;file://F:/Programming/Java/Projects-Web/Spring framework/OnlineShopping/ProjectOnlineShopping/src/main/webapp/WEB-INF/views/shared/navbar.jsp&#10;Reg&#9;FILE&#9;file://F:/Programming/Java/Projects-Web/Spring framework/OnlineShopping/ProjectOnlineShopping/src/main/java/com/ivo/onlineshopping/handler/RegisterHandler.java&#10;err&#9;FILE&#9;file://F:/Programming/Java/Projects-Web/Spring framework/OnlineShopping/ProjectOnlineShopping/src/main/webapp/WEB-INF/views/error.jsp&#10;dis&#9;FILE&#9;file://F:/Programming/Java/Projects-Web/Spring framework/OnlineShopping/ProjectOnlineShopping/src/main/webapp/WEB-INF/config/dispatcher-servlet.xml&#10;re&#9;FILE&#9;file://F:/Programming/Java/Projects-Web/Spring framework/OnlineShopping/ProjectOnlineShopping/src/main/java/com/ivo/onlineshopping/handler/RegisterHandler.java&#10;s&#9;FILE&#9;file://F:/Programming/Java/Projects-Web/Spring framework/OnlineShopping/ProjectOnlineShopping/src/main/webapp/WEB-INF/views/flows/register/signup-confirm.jsp&#10;flo&#9;FILE&#9;file://F:/Programming/Java/Projects-Web/Spring framework/OnlineShopping/ProjectOnlineShopping/src/main/webapp/WEB-INF/views/flows/register/signup-flow.xml&#10;sig&#9;FILE&#9;file://F:/Programming/Java/Projects-Web/Spring framework/OnlineShopping/ProjectOnlineShopping/src/main/webapp/WEB-INF/views/flows/register/signup-personal.jsp&#10;page&#9;FILE&#9;file://F:/Programming/Java/Projects-Web/Spring framework/OnlineShopping/ProjectOnlineShopping/src/main/java/com/ivo/onlineshopping/controller/PageController.java&#10;ma&#9;FILE&#9;file://F:/Programming/Java/Projects-Web/Spring framework/OnlineShopping/ProjectOnlineShopping/src/main/java/com/ivo/onlineshopping/controller/ManageController.java&#10;js&#9;FILE&#9;file://F:/Programming/Java/Projects-Web/Spring framework/OnlineShopping/ProjectOnlineShopping/src/main/java/com/ivo/onlineshopping/controller/JsonDataController.java&#10;jso&#9;FILE&#9;file://F:/Programming/Java/Projects-Web/Spring framework/OnlineShopping/ProjectOnlineShopping/src/main/java/com/ivo/onlineshopping/controller/JsonDataController.java&#10;h&#9;FILE&#9;file://F:/Programming/Java/Projects-Web/Spring framework/OnlineShopping/ProjectOnlineShopping/src/main/webapp/resources/assets/css/shop-homepage.css&#10;we&#9;FILE&#9;file://F:/Programming/Java/Projects-Web/Spring framework/OnlineShopping/ProjectOnlineShopping/src/main/webapp/WEB-INF/web.xml&#10;Ma&#9;FILE&#9;file://F:/Programming/Java/Projects-Web/Spring framework/OnlineShopping/ProjectOnlineShopping/src/main/java/com/ivo/onlineshopping/controller/ManageController.java" />
   </component>
   <component name="RecentsManager">
     <key name="MoveFile.RECENT_KEYS">
@@ -576,12 +565,13 @@
       <workItem from="1517931399566" duration="1618000" />
       <workItem from="1517994125266" duration="2125000" />
       <workItem from="1518005449136" duration="48000" />
-      <workItem from="1518006695372" duration="4132000" />
+      <workItem from="1518006695372" duration="4170000" />
+      <workItem from="1518014062065" duration="507000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="80398000" />
+    <option name="totallyTimeSpent" value="80943000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1382" height="754" extended-state="6" />
@@ -851,7 +841,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="417">
           <caret line="55" column="55" lean-forward="false" selection-start-line="55" selection-start-column="55" selection-end-line="55" selection-end-column="55" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -908,7 +897,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="1132">
           <caret line="163" column="1" lean-forward="false" selection-start-line="163" selection-start-column="1" selection-end-line="163" selection-end-column="1" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -924,7 +912,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="265">
           <caret line="18" column="24" lean-forward="false" selection-start-line="18" selection-start-column="24" selection-end-line="18" selection-end-column="24" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -956,36 +943,31 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
           <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="15" />
-          <folding>
-            <marker date="1517995600348" expanded="true" signature="2053:2062" ph="..." />
-            <marker date="1517995600348" expanded="true" signature="2588:2594" ph="&amp;##160;" />
-            <marker date="1517995600348" expanded="true" signature="5388:5397" ph="..." />
-          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/webapp/WEB-INF/views/cart.jsp">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="17">
+          <caret line="36" column="89" lean-forward="false" selection-start-line="36" selection-start-column="89" selection-end-line="36" selection-end-column="89" />
+          <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/com/ivo/onlineshopping/service/CartService.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="370">
-          <caret line="53" column="86" lean-forward="false" selection-start-line="53" selection-start-column="86" selection-end-line="53" selection-end-column="86" />
+        <state relative-caret-position="418">
+          <caret line="76" column="36" lean-forward="false" selection-start-line="76" selection-start-column="36" selection-end-line="76" selection-end-column="36" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/webapp/WEB-INF/views/cart.jsp">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="612">
-          <caret line="36" column="89" lean-forward="false" selection-start-line="36" selection-start-column="89" selection-end-line="36" selection-end-column="89" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/com/ivo/onlineshopping/controller/CartController.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="214">
-          <caret line="31" column="9" lean-forward="false" selection-start-line="31" selection-start-column="9" selection-end-line="31" selection-end-column="9" />
+        <state relative-caret-position="179">
+          <caret line="38" column="21" lean-forward="false" selection-start-line="38" selection-start-column="21" selection-end-line="38" selection-end-column="21" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
@@ -994,8 +976,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/webapp/resources/assets/js/cartViewHandler.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="459">
-          <caret line="27" column="79" lean-forward="false" selection-start-line="27" selection-start-column="79" selection-end-line="27" selection-end-column="79" />
+        <state relative-caret-position="255">
+          <caret line="15" column="19" lean-forward="false" selection-start-line="15" selection-start-column="19" selection-end-line="15" selection-end-column="19" />
           <folding />
         </state>
       </provider>
